@@ -811,7 +811,7 @@ display: none;
 .articulo-caja p{
     background-color: black;
     color: white;
-    font-size: 11px;
+    font-size: 12px;
     height: 20%;
     text-align: center;
 }
@@ -837,7 +837,6 @@ display: none;
     grid-column: 1/5;
     grid-row: 3/4;
     width: 400px;
-  
     margin: auto;
     margin-top: 0%;
     height: 100%;
@@ -851,7 +850,6 @@ display: none;
     grid-column: 1/5;
     grid-row: 4/5;
     width: 400px;
-  
     margin: auto;
     margin-top: 0%;
     height: 100%;
@@ -931,7 +929,6 @@ display: none;
     grid-column: 1/5;
     grid-row: 6/7;
     width: 400px;
-
     margin: auto;
     margin-top: 0%;
     height: 100%;
@@ -971,7 +968,6 @@ display: none;
     background-color: black;
     height: 40%;
     align-self: center;
-  
     color: white;
   
 
@@ -1014,4 +1010,91 @@ footer button{
     border: 0,5px solid white;
 
 }
+}
+
+@media (max-width:320px){
+header {
+  width: 330px;
+    height: 100px;
+  
+}
+header h1 a{
+    font-size:13px ;
+}
+.NavBar li a{
+    font-size:8px;
+}
+.logo{
+    height: 25px;
+    width: 25px;
+   }
+main{
+display: flex;
+flex-direction: column;
+gap: 5px;
+
+   }
+.caja{
+    width: 320px;
+    height: 320px;
+    margin-left: 5px;
+ 
+
+
+ 
+}
+.caja2{
+    width: 320px;
+    height: 320px;
+  margin-left: 5px;
+}
+.articulo-caja h3{
+   display: none;
+}
+.articulo-caja p{
+    height: 20%;
+    font-size: 12px;
+}
+.articulo-caja img{
+    height: 80%;
+}
+.articulo-caja iframe{
+    height: 80%;
+    
+}
+.barraNoticias{
+    width: 320px;
+    height: 170px;
+    margin-left: 5px;
+}
+.barraNoticias2{
+    width: 320px;
+    height: 170px;
+    margin-left: 5px;
+}
+.barraNoticias3{
+    width: 320px;
+    height: 170px;
+    margin-left: 5px;
+}
+.barraNoticias4{
+    width: 320px;
+    height: 170px;
+    margin-left: 5px;
+}
+.barraNoticias5{
+    width: 320px;
+    height: 170px;
+    margin-left: 5px;
+}
+.aside-barra p{
+    font-size: 10px;
+}
+.aside-barra2 p{ 
+    font-size: 10px;
+}
+.aside-barra2 h5{
+    font-size: 10px;
+}
+
 }
