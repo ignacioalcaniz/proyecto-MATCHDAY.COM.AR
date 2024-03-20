@@ -1014,7 +1014,7 @@ footer button{
 
 @media (max-width:320px){
 header {
-  width: 330px;
+  width: 320px;
     height: 100px;
   
 }
@@ -1035,7 +1035,7 @@ gap: 5px;
 
    }
 .caja{
-    width: 320px;
+    width: 310px;
     height: 320px;
     margin-left: 5px;
  
@@ -1044,7 +1044,7 @@ gap: 5px;
  
 }
 .caja2{
-    width: 320px;
+    width: 310px;
     height: 320px;
   margin-left: 5px;
 }
@@ -1063,27 +1063,27 @@ gap: 5px;
     
 }
 .barraNoticias{
-    width: 320px;
+    width: 310px;
     height: 170px;
     margin-left: 5px;
 }
 .barraNoticias2{
-    width: 320px;
+    width: 310px;
     height: 170px;
     margin-left: 5px;
 }
 .barraNoticias3{
-    width: 320px;
+    width: 310px;
     height: 170px;
     margin-left: 5px;
 }
 .barraNoticias4{
-    width: 320px;
+    width: 310px;
     height: 170px;
     margin-left: 5px;
 }
 .barraNoticias5{
-    width: 320px;
+    width: 310px;
     height: 170px;
     margin-left: 5px;
 }
