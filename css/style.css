@@ -168,6 +168,10 @@ main {
 
 
 }
+.articulo-caja p a{
+    color: black;
+   text-decoration: none;
+}
 .articulo-caja h3  {
     text-align: center;
     text-decoration-line: underline;
@@ -394,6 +398,10 @@ footer button {
     font-size: 12px;
 
 }
+.aside-barra2 p a{
+    color: black;
+    text-decoration: none;
+}
 
 .aside-barra2 h5 {
     background-color: green;
@@ -437,6 +445,10 @@ footer button {
     height: 15%;
     text-align: center;
 
+}
+.aside-barra p a{
+    color: black;
+    text-decoration: none;
 }
 
 @media(max-width:1024px){
