@@ -103,7 +103,20 @@ header h1 a {
 header h1 a:hover{
     font-size: 55px;
     color: white;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 110px;
 }
+header h1 a:hover::after{
+    content:  " es la pagina numero 1 elegida por los fanaticos del futbol.";
+    color: black;
+   font-size:30px;
+align-self: center;
+text-decoration: underline;
+text-shadow: 1px 1px black;
+font-family: "Exo", sans-serif;
+}
+
 
 header h2 {
     text-decoration-line: underline;
@@ -209,6 +222,10 @@ main {
 }
 .articulo-caja p a:hover{
     text-decoration: underline;
+}
+.articulo-caja p a::selection{
+    background-color: black;
+    color: green;
 }
 .articulo-caja h3  {
     text-align: center;
@@ -469,6 +486,10 @@ footer button:hover{
 .aside-barra2 p a:active{
     color: green;
 }
+.aside-barra2 p a::selection{
+    background-color: black;
+    color: green;
+}
 .aside-barra2 h5 {
     background-color: green;
     width: 100%;
@@ -550,6 +571,10 @@ footer button:hover{
     text-decoration: underline;
 }
 .aside-barra p a:active{
+    color: green;
+}
+.aside-barra p a::selection{
+    background-color: black;
     color: green;
 }
 
@@ -846,6 +871,7 @@ display: none;
         font-size: 14px;
 
     }
+ 
  
 }
 
