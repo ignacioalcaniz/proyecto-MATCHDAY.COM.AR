@@ -23,17 +23,28 @@ header {
     font-optical-sizing: auto;
     font-weight: 600px;
     font-style: normal;
-    width: 100%;
-    height: 290px;
+    height: 18.75rem;
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
     position: sticky;
+   z-index: 1000;
     top: 0;
     border: 3px solid black;
 
 
+
+}
+nav{
+   
+    border: 2px solid black;
+    background-color: darkgreen;
+    height: 3.125rem;
+
+}
+nav:hover{
+    box-shadow: 2px 2px 2px black;
 }
 
 
@@ -43,11 +54,7 @@ header {
     justify-content: space-evenly;
     list-style: none;
     padding-bottom: .4375rem;
-    background-color: darkgreen;
-    border: 2px solid black;
- 
-
-
+  
 }
 
 
@@ -87,6 +94,12 @@ border-radius: .3125rem;
 header h1{
     background-color: darkgreen;
     border: 2px solid black;
+ margin-top: 0%;
+
+
+}
+header h1:hover{
+    box-shadow: 2px 2px 2px black;
 }
 
 
@@ -97,6 +110,7 @@ header h1 a {
     color: black;
     text-decoration: none;
     list-style: none;
+    width: 100%;
 
 
 }
@@ -106,6 +120,7 @@ header h1 a:hover{
   display: flex;
   justify-content: flex-start;
   margin-left: 110px;
+
 }
 header h1 a:hover::after{
     content:  " es la pagina numero 1 elegida por los fanaticos del futbol.";
@@ -166,11 +181,29 @@ main {
     grid-column: 2/4;
     grid-row: 1/6;
     width: 100%;
-    height: 100%;
+    height: 90%;
+    z-index: 1;
    
-
-
 }
+
+.articuloCarrusel{
+    width: 100%;
+    height: 100%;
+}
+.div1 img{
+    width: 100%;
+    height: 37.5rem;
+}
+.div2 img{
+    width: 100%;
+    height: 37.5rem;
+}
+.div3 img{
+    width: 100%;
+    height: 37.5rem;
+}
+
+
 .caja:hover{
     box-shadow: 2px 4px 2px 2px black;
 }
@@ -192,6 +225,7 @@ main {
     box-shadow: 2px 4px 2px 2px black;
 }
 
+
 .articulo-caja {
     width: 100%;
     height: 100%;
@@ -207,7 +241,7 @@ main {
     font-style: normal;
     font-size: 16px;
     width: 100%;
-    height: 10%;
+    height: 9%;
     text-align: center;
 
 
@@ -250,6 +284,26 @@ main {
 color: white;
  font-size: 1.5625rem;
 }
+.h3{
+    text-align: center;
+    text-decoration-line: underline;
+    font-family: "Oswald", sans-serif;
+    color: black;
+    font-size: 1.4rem;
+    text-shadow: 1px 1px black;
+    background-color: green;
+    width: 100%;
+    height: 10%;
+    
+}
+.h3 a{
+    color: black;
+}
+.h3 a:hover{
+    color: white;
+ font-size: 1.5625rem;
+}
+
 
 .articulo-caja img {
     width: 100%;
@@ -257,6 +311,9 @@ color: white;
     display: flex;
     flex-direction: column;
 }
+
+
+
 
 .articulo-caja img:active{
 filter: opacity(60%);
@@ -581,7 +638,7 @@ footer button:hover{
 
 @media(max-width:1024px){
     header{
-        width: 100%;
+      
         height: 15rem;
        
     }
@@ -740,6 +797,8 @@ display: none;
        grid-column: 1/5;
        grid-row: 1/2;
        border: 1px solid black;
+   height: 50px;
+   margin-top: 5px;
 
     }
     header h2{
@@ -766,13 +825,13 @@ display: none;
     nav{
         grid-column: 1/5;
         grid-row: 3/4;
+        height: 30px;
      
  
      
     }
     .NavBar{
-        background-color: darkgreen;
-        border: 1px solid black;
+     
         height: 100%;
        
       
@@ -921,7 +980,7 @@ display: none;
     height: 30px;
     width: 30px;
    }
-   .NavBar{
+   nav{
     background-color: black;
     border: 1px solid white;
    }
@@ -1164,17 +1223,24 @@ header h2 a:active{
 }
 }
 
+
 @media (max-width:320px){
 header {
-  width: 320px;
-    height: 100px;
+width: 20rem;
+    height: 6.25rem;
   
 }
+header h1{
+    height: 40px;
+
+}
 header h1 a{
-    font-size:13px ;
+   font-size: 11px;
 }
 .NavBar li a{
-    font-size:8px;
+    font-size:6px;
+    justify-self: center;
+
 }
 .logo{
     height: 25px;
@@ -1235,27 +1301,27 @@ gap: 5px;
     margin-left: 5px;
 }
 .barraNoticias5{
-    width: 310px;
-    height: 170px;
-    margin-left: 5px;
+    width: 19.375rem;
+    height: 10.625rem;
+    margin-left: .3125rem;
 }
 .aside-barra p{
-    font-size: 10px;
+    font-size: .625rem;
 }
 .aside-barra2 p{ 
-    font-size: 10px;
+    font-size: .625rem;
 }
 .aside-barra2 h5{
-    font-size: 10px;
+    font-size: .625rem;
 }
 header h1 a:active{
     display: none;
     }
     header h2 a:active{
-        font-size: 10px;
+        font-size: .625rem;
     }
     .NavBar li a:active{
-        font-size: 10px;
+        font-size: .625rem;
     }
 
 }
