@@ -11,7 +11,7 @@
 
 <body>
 
-        <header>
+        <header class="container-fluid">
                 <h1><a href="../index.html">MATCHDAY.COM.AR </a> </h1>
                 <img class="logo" src="../assets/img/iconopagina.png" alt="">
                 <h2><a href="../pages/noticias.html"><img src="../assets/img/iconoNoticias.png" alt="">NOTICIAS</a>  </h2>
@@ -30,16 +30,49 @@
 
         </header>
         <main>
-                <section class="caja">
-                        <div class="articulo-caja">
-                                <h3><a href="https://www.excelsior.com.mx/adrenalina/kylian-mbappe-estaria-99-amarrado-al-real-madrid-aseguro-javier-tebas/1637468" target="_blank">El drama Mbappe continua...</a></h3>
-                                <a href="https://www.excelsior.com.mx/adrenalina/kylian-mbappe-estaria-99-amarrado-al-real-madrid-aseguro-javier-tebas/1637468"
-                                        target="_blank"><img src="https://i.ibb.co/hM567f8/mbappe.webp" alt="mbappe"
-                                                border="0"></a>
-                                <p><a href="https://www.excelsior.com.mx/adrenalina/kylian-mbappe-estaria-99-amarrado-al-real-madrid-aseguro-javier-tebas/1637468" target="_blank"> "Kylian Mbappé estaría 99% 'amarrado' al Real Madrid, aseguró Javier Tebas".Nota
-                                        hecha por:@facugonzales </a></p>
+                <div id="carouselExampleCaptions" class="carousel slide caja3">
+                        <div class="carousel-indicators botonCarrusel">
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
                         </div>
-                </section>
+                        <div class="carousel-inner articuloCarrusel">
+                          <div class="carousel-item active div1">
+                                <a href="https://www.excelsior.com.mx/adrenalina/kylian-mbappe-estaria-99-amarrado-al-real-madrid-aseguro-javier-tebas/1637468"
+                                target="_blank"><img src="https://i.ibb.co/hM567f8/mbappe.webp" class="d-block" alt="mbappe"
+                                        border="0"></a>
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3 class="h3"><a href="https://www.excelsior.com.mx/adrenalina/kylian-mbappe-estaria-99-amarrado-al-real-madrid-aseguro-javier-tebas/1637468" target="_blank">El drama Mbappe continua...</a></h3>
+                                <p class="pCarrusel"><a href="https://www.excelsior.com.mx/adrenalina/kylian-mbappe-estaria-99-amarrado-al-real-madrid-aseguro-javier-tebas/1637468" target="_blank"> "Kylian Mbappé estaría 99% 'amarrado' al Real Madrid, aseguró Javier Tebas".Nota
+                                        hecha por:@facugonzales </a></p>
+                            </div>
+                          </div>
+                          <div class="carousel-item div2">
+                                <a href="https://www.espn.com.ar/futbol/mundial/nota/_/id/13431073/scaloni-confirmo-dos-nombres-en-argentina-para-la-copa-america" target="_blank"><img src="https://i.ibb.co/3T3VvWR/scaloni.jpg" class="d-block" alt="scaloni" border="0"></a>
+                            <div class="carousel-caption d-none d-md-block">
+                              <h3 class="h3"><a href="https://www.espn.com.ar/futbol/mundial/nota/_/id/13431073/scaloni-confirmo-dos-nombres-en-argentina-para-la-copa-america" target="_blank">Scaloni confirmó dos nombres para la Copa América y al resto, "pico y pala"</a></h3>
+                              <p class="pCarrusel"> <a   href="https://www.espn.com.ar/futbol/mundial/nota/_/id/13431073/scaloni-confirmo-dos-nombres-en-argentina-para-la-copa-america" target="_blank">Scaloni contó por qué Argentina levantó y ganó, repartió elogios y sacó cuentas para la lista de la Copa América</a></p>
+                            </div>
+                          </div>
+                          <div class="carousel-item div3">
+                                <a href="https://www.espn.com.ar/futbol/alemania/nota/_/id/13431357/philipp-lahm-demichelis-tiene-una-ventaja-para-ser-dt-de-bayern-munich-bundesliga-alemania-euro" target="_blank"><img src="https://i.ibb.co/5krcc6y/bayerm.jpg" class="d-block" alt="bayerm" border="0"></a>
+                            <div class="carousel-caption d-none d-md-block">
+                              <h3 class="h3"><a href="https://www.espn.com.ar/futbol/alemania/nota/_/id/13431357/philipp-lahm-demichelis-tiene-una-ventaja-para-ser-dt-de-bayern-munich-bundesliga-alemania-euro" target="_blank">Philipp Lahm: "Demichelis tiene una ventaja para ser entrenador de Bayern Munich"
+                        </a></h3>
+                              <p class="pCarrusel"><a   href="https://www.espn.com.ar/futbol/alemania/nota/_/id/13431357/philipp-lahm-demichelis-tiene-una-ventaja-para-ser-dt-de-bayern-munich-bundesliga-alemania-euro" target="_blank">Philipp Lahm analiza la actualidad de Bayern Munich y la definición de la Bundesliga</a></p>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                           
 
                 <section class="publicidad">
                         <aside>

@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="container-fluid">
         <h1><a href="../index.html">MATCHDAY.COM.AR </a> </h1>
         <img class="logo" src="../assets/img/iconopagina.png" alt="">
         <h2><a href="../pages/futbol-internacional.html"> <img src="../assets/img/iconoLigaEuropea.png" alt="">FUTBOL INTERNACIONAL</a> </h2>
@@ -28,17 +28,63 @@
     </header>
 
     <main>
-        <section class="caja">
-            <div class="articulo-caja">
-                <h3><a href="https://www.premierleague.com/tables" target="_blank">Premier League </a></h3>
-                <a href="https://www.premierleague.com/tables" target="_blank"><img
-                        src="https://i.ibb.co/3p2pnQj/chelsea-manchester-city-466516-154136.jpg"
-                        alt="chelsea-manchester-city-466516-154136" border="0"></a>
-                <p> <a href="https://www.premierleague.com/tables" target="_blank">Liverpool,Manchester City y Arsenal: Los 3 candidatos al titulo de la Premier League.Nota hecha
-                    por:@MiguelSimon </a></p>
+        <div id="carouselExampleCaptions" class="carousel slide caja">
+            <div class="carousel-indicators botonCarrusel">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
             </div>
-        </section>
+            <div class="carousel-inner articuloCarrusel">
+                <div class="carousel-item active div1">
+                    <a href="https://www.premierleague.com/tables" target="_blank"><img
+                        src="https://i.ibb.co/3p2pnQj/chelsea-manchester-city-466516-154136.jpg" class="d-block"
+                        alt="chelsea-manchester-city-466516-154136" border="0"></a>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3 class="h3"><a href="https://www.premierleague.com/tables" target="_blank">Premier League </a></h3>
+                        <p class="pCarrusel"> <a href="https://www.premierleague.com/tables" target="_blank">Liverpool,Manchester City y Arsenal: Los 3 candidatos al titulo de la Premier League.Nota hecha
+                            por:@MiguelSimon </a></p>
+                    </div>
+                  </div>
+                <div class="carousel-item div2">
+                    <a href="https://www.marca.com/futbol/futbol-internacional/2024/03/27/6603cf3746163f073c8b456f.html" target="_blank"><img src="https://i.ibb.co/hDD52Hn/brasil.webp" class="d-block" alt="brasil" border="0"></a>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3 class="h3"><a
+                                href="https://www.marca.com/futbol/futbol-internacional/2024/03/27/6603cf3746163f073c8b456f.html"
+                                target="_blank">Brasil afirma que no volverá a jugar sin VAR</a></h3>
+                        <p class="pCarrusel"> <a
+                                href="https://www.marca.com/futbol/futbol-internacional/2024/03/27/6603cf3746163f073c8b456f.html"
+                                target="_blank">El Presidente de la Federación de Fútbol de Brasil, Ednaldo Rodrigues, se mostró muy enfadado por los dos penaltis pitados a favor de España</a></p>
+                    </div>
+                </div>
+                <div class="carousel-item div3">
+                    <a href="https://www.marca.com/futbol/eurocopa/cronica/2024/03/26/6602f73422601d7e058b4577.html" target="_blank"><img src="https://i.ibb.co/cQC96Y4/georgia.webp" class="d-block"  alt="georgia" border="0"></a>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3 class="h3"><a
+                                href="https://www.marca.com/futbol/eurocopa/cronica/2024/03/26/6602f73422601d7e058b4577.html"
+                                target="_blank">Georgia hace historia y se clasifica para su primera Eurocopa</a></h3>
+                        <p class="pCarrusel"><a
+                                href="https://www.marca.com/futbol/eurocopa/cronica/2024/03/26/6602f73422601d7e058b4577.html"
+                                target="_blank">Eliminó en penaltis a Grecia en la Ruta C de la Repesca</a></p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
 
+         
+        
         <section class="publicidad">
             <aside>
                 <h4><a href="https://www.adidas.com.ar/river_plate" target="_blank">Publicidad:</a></h4>
