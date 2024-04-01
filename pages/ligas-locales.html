@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LIGAS LOCALES</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
@@ -13,62 +14,112 @@
     <header class="container-fluid">
         <h1> <a href="../index.html">MATCHDAY.COM.AR </a></h1>
         <img class="logo" src="../assets/img/iconopagina.png" alt="">
-        <h2><a href="../pages/ligas-locales.html"> <img src="../assets/img/iconoLigaLocales.png" alt="">LIGAS LOCALES </a></h2>
+        <h2><a href="../pages/ligas-locales.html"> <img src="../assets/img/iconoLigaLocales.png" alt="">LIGAS LOCALES
+            </a></h2>
 
-        <nav>
-            <ul class="NavBar">
-                <li><a href="../index.html"><img src="../assets/img/homeIcono.png" alt="">HOME</a></li>
-                <li><a href="./noticias.html"><img src="../assets/img/iconoNoticias.png" alt="">NOTICIAS</a></li>
-                <li><a href="./futbol-internacional.html"><img src="../assets/img/iconoLigaEuropea.png" alt="">FUTBOL
-                        INTERNACIONAL</a></li>
-                <li><a href="./equipos-favoritos.html"><img src="../assets/img/equipoFavorito.png" alt="">EQUIPOS
-                        FAVORITOS</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg NavBar ">
+            <div class="container-fluid row  ">
+                <div class="col-2 ">
+                    <a class="navbar-brand" href="../index.html"><img src="../assets/img/homeIcono.png" alt="">HOME</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse col-10 row  " id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item col ">
+                            <a class="nav-link active" href="../pages/noticias.html"><img
+                                    src="../assets/img/iconoNoticias.png" alt="">NOTICIAS</a>
+                        </li>
+                        <li class="nav-item col ">
+                            <a class="nav-link active" aria-current="page" href="../pages/equipos-favoritos.html"><img
+                                    src="../assets/img/equipoFavorito.png" alt="">EQUIPOS FAVORITOS</a>
+                        </li>
+                        <li class="nav-item dropdown col">
+                            <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false"><img src="../assets/img/futbolicono.png" alt="">
+                                FUTBOL:
+                            </a>
+                            <ul class="dropdown-menu ">
+
+                                <li><a class="dropdown-item" href="../pages/futbol-internacional.html"> <img
+                                            src="../assets/img/iconoLigaEuropea.png" alt="">INTERNACIONAL</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
     <main>
         <div id="carouselExampleCaptions" class="carousel slide caja">
             <div class="carousel-indicators botonCarrusel">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner articuloCarrusel">
-              <div class="carousel-item active divC">
-                <a href="https://www.ligaprofesional.ar/notas/copa-sur-finanzas/2024/02/25/programacion-de-la-fecha-7/"
-                target="_blank"><img src="https://i.ibb.co/KWWyRRf/liga-profesional.jpg" class="d-block" alt="liga-profesional"
-                    border="0"></a>
-                <div class="carousel-caption d-none d-md-block">
-                    <h3 class="h3"><a href="https://www.ligaprofesional.ar/notas/copa-sur-finanzas/2024/02/25/programacion-de-la-fecha-7/" target="_blank">Liga Profesional AFA</a></h3>
-                    <p class="pCarrusel"><a href="https://www.ligaprofesional.ar/notas/copa-sur-finanzas/2024/02/25/programacion-de-la-fecha-7/" target="_blank">Se fue la séptima.Central Córdoba y Atlético Tucumán empataron 0 a 0.Nota redactada por:@Marianocloss</a></p>
+                <div class="carousel-item active divC">
+                    <a href="https://www.ligaprofesional.ar/notas/copa-sur-finanzas/2024/02/25/programacion-de-la-fecha-7/"
+                        target="_blank"><img src="https://i.ibb.co/KWWyRRf/liga-profesional.jpg" class="d-block"
+                            alt="liga-profesional" border="0"></a>
+                    <div class="carousel-caption d-md-block">
+                        <h3 class="h3"><a
+                                href="https://www.ligaprofesional.ar/notas/copa-sur-finanzas/2024/02/25/programacion-de-la-fecha-7/"
+                                target="_blank">Liga Profesional AFA</a></h3>
+                        <p class="pCarrusel"><a
+                                href="https://www.ligaprofesional.ar/notas/copa-sur-finanzas/2024/02/25/programacion-de-la-fecha-7/"
+                                target="_blank">Se fue la séptima.Central Córdoba y Atlético Tucumán empataron 0 a
+                                0.Nota redactada por:@Marianocloss</a></p>
+                    </div>
                 </div>
-              </div>
-              <div class="carousel-item divC">
-                <a href="https://www.ligaprofesional.ar/notas/institucional/2024/02/22/camaraderia-entre-tapia-dirigentes-y-arbitros/" target="_blank"><img src="https://i.ibb.co/dLyZ8ZN/afa2.jpg" class="d-block" alt="afa2" border="0"></a>
-                <div class="carousel-caption d-none d-md-block">
-                  <h3 class="h3"><a href="https://www.ligaprofesional.ar/notas/institucional/2024/02/22/camaraderia-entre-tapia-dirigentes-y-arbitros/" target="_blank">Camaradería entre Tapia, dirigentes y árbitros</a></h3>
-                  <p class="pCarrusel"> <a   href="https://www.ligaprofesional.ar/notas/institucional/2024/02/22/camaraderia-entre-tapia-dirigentes-y-arbitros/" target="_blank">El presidente reunió a autoridades de los clubes y a los jueces antes de la fecha de los clásicos.</a></p>
+                <div class="carousel-item divC">
+                    <a href="https://www.ligaprofesional.ar/notas/institucional/2024/02/22/camaraderia-entre-tapia-dirigentes-y-arbitros/"
+                        target="_blank"><img src="https://i.ibb.co/dLyZ8ZN/afa2.jpg" class="d-block" alt="afa2"
+                            border="0"></a>
+                    <div class="carousel-caption  d-md-block">
+                        <h3 class="h3"><a
+                                href="https://www.ligaprofesional.ar/notas/institucional/2024/02/22/camaraderia-entre-tapia-dirigentes-y-arbitros/"
+                                target="_blank">Camaradería entre Tapia, dirigentes y árbitros</a></h3>
+                        <p class="pCarrusel"> <a
+                                href="https://www.ligaprofesional.ar/notas/institucional/2024/02/22/camaraderia-entre-tapia-dirigentes-y-arbitros/"
+                                target="_blank">El presidente reunió a autoridades de los clubes y a los jueces antes de
+                                la fecha de los clásicos.</a></p>
+                    </div>
                 </div>
-              </div>
-              <div class="carousel-item divC">
-                <a href="https://www.ligaprofesional.ar/notas/copa-sur-finanzas/2024/03/26/boca-y-san-lorenzo-en-conferencia/" target="_blank"><img src="https://i.ibb.co/J3YvMj4/Imagen-de-Whats-App-2024-03-27-a-las-14-38-20-11ce42ab.jpg" class="d-block" alt="Imagen-de-Whats-App-2024-03-27-a-las-14-38-20-11ce42ab" border="0"></a>
-                <div class="carousel-caption d-none d-md-block">
-                  <h3 class="h3"><a href="https://www.ligaprofesional.ar/notas/copa-sur-finanzas/2024/03/26/boca-y-san-lorenzo-en-conferencia/" target="_blank">Boca y San Lorenzo en conferencia</a></h3>
-                  <p class="pCarrusel"><a   href="https://www.ligaprofesional.ar/notas/copa-sur-finanzas/2024/03/26/boca-y-san-lorenzo-en-conferencia/" target="_blank">Los entrenadores hablaron ante los medios.</a></p>
+                <div class="carousel-item divC">
+                    <a href="https://www.ligaprofesional.ar/notas/copa-sur-finanzas/2024/03/26/boca-y-san-lorenzo-en-conferencia/"
+                        target="_blank"><img
+                            src="https://i.ibb.co/J3YvMj4/Imagen-de-Whats-App-2024-03-27-a-las-14-38-20-11ce42ab.jpg"
+                            class="d-block" alt="Imagen-de-Whats-App-2024-03-27-a-las-14-38-20-11ce42ab" border="0"></a>
+                    <div class="carousel-caption d-md-block">
+                        <h3 class="h3"><a
+                                href="https://www.ligaprofesional.ar/notas/copa-sur-finanzas/2024/03/26/boca-y-san-lorenzo-en-conferencia/"
+                                target="_blank">Boca y San Lorenzo en conferencia</a></h3>
+                        <p class="pCarrusel"><a
+                                href="https://www.ligaprofesional.ar/notas/copa-sur-finanzas/2024/03/26/boca-y-san-lorenzo-en-conferencia/"
+                                target="_blank">Los entrenadores hablaron ante los medios.</a></p>
+                    </div>
                 </div>
-              </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
             </button>
-          </div>
-      
+        </div>
+
         <section class="publicidad">
             <aside>
                 <h4><a href="https://www.mcdonalds.com.ar/pedidos/menu/mccombos" target="_blank">Publicidad:</a></h4>
@@ -80,8 +131,9 @@
         <section class="barraNoticias">
             <aside class="aside-barra">
                 <h4><a href="https://lapaginamillonaria.com/" target="_blank">River Plate:</a></h4>
-                <p> <a href="https://lapaginamillonaria.com/" target="_blank">¿Qué le pasa a Claudio Echeverri que no termina los partidos con River? Todas las noticas de River
-                    Plate aqui: </a></p>
+                <p> <a href="https://lapaginamillonaria.com/" target="_blank">¿Qué le pasa a Claudio Echeverri que no
+                        termina los partidos con River? Todas las noticas de River
+                        Plate aqui: </a></p>
                 <a href="https://lapaginamillonaria.com/" target="_blank"><img src="https://i.ibb.co/4FS313t/river.webp"
                         alt="river" border="0"></a>
             </aside>
@@ -89,8 +141,10 @@
 
         <section class="barraNoticias2">
             <aside class="aside-barra">
-                <h4><a href="https://www.ole.com.ar/futbol-ascenso/b-nacional" target="_blank">Torneo B Nacional:</a></h4>
-                <p> <a href="https://www.ole.com.ar/futbol-ascenso/b-nacional" target="_blank">A Agropecuario se le escapó la punta y Chicago no levanta. Todas las noticias de la B Nacional aqui:</a>
+                <h4><a href="https://www.ole.com.ar/futbol-ascenso/b-nacional" target="_blank">Torneo B Nacional:</a>
+                </h4>
+                <p> <a href="https://www.ole.com.ar/futbol-ascenso/b-nacional" target="_blank">A Agropecuario se le
+                        escapó la punta y Chicago no levanta. Todas las noticias de la B Nacional aqui:</a>
                 </p>
                 <a href="https://www.ole.com.ar/futbol-ascenso/b-nacional" target="_blank"><img
                         src="https://i.ibb.co/stPTy5n/b-nacional.jpg" alt="b-nacional" border="0"></a>
@@ -99,8 +153,10 @@
 
         <section class="barraNoticias3">
             <aside class="aside-barra">
-                <h4><a href="https://www.ascensodelinterior.com.ar/etiquetas/2/torneo-regional-amateur/" target="_blank">Torneo Regional Federal Amateur:</a></h4>
-                <p><a href="https://www.ascensodelinterior.com.ar/etiquetas/2/torneo-regional-amateur/" target="_blank">¡Camioneros es del Federal A! Le ganó a Altos Hornos Zapla 2 a 1. </a></p>
+                <h4><a href="https://www.ascensodelinterior.com.ar/etiquetas/2/torneo-regional-amateur/"
+                        target="_blank">Torneo Regional Federal Amateur:</a></h4>
+                <p><a href="https://www.ascensodelinterior.com.ar/etiquetas/2/torneo-regional-amateur/"
+                        target="_blank">¡Camioneros es del Federal A! Le ganó a Altos Hornos Zapla 2 a 1. </a></p>
                 <a href="https://www.ascensodelinterior.com.ar/etiquetas/2/torneo-regional-amateur/"
                     target="_blank"><img src="https://i.ibb.co/J5nZQ03/TRFA.jpg" alt="TRFA" border="0"></a>
             </aside>
@@ -108,21 +164,27 @@
 
         <section class="barraNoticias4">
             <aside class="aside-barra2">
-                <h5><a href="https://www.soloascenso.com.ar/notas/afa/dias-y-horarios-para-la-fecha-8-de-la-primera-c/198624" target="_blank">Días y horarios para la fecha 8 de la Primera C.</a></h5>
+                <h5><a href="https://www.soloascenso.com.ar/notas/afa/dias-y-horarios-para-la-fecha-8-de-la-primera-c/198624"
+                        target="_blank">Días y horarios para la fecha 8 de la Primera C.</a></h5>
                 <a href="https://www.soloascenso.com.ar/notas/afa/dias-y-horarios-para-la-fecha-8-de-la-primera-c/198624"
                     target="_blank"><img src="https://i.ibb.co/cQPCMCJ/ascenso3.jpg" alt="ascenso3" border="0"></a>
-                <p> <a href="https://www.soloascenso.com.ar/notas/afa/dias-y-horarios-para-la-fecha-8-de-la-primera-c/198624" target="_blank">Se dieron a conocer los días y horarios de la octava jornada en la cuarta categoría del fútbol
-                    argentino.</a></p>
+                <p> <a href="https://www.soloascenso.com.ar/notas/afa/dias-y-horarios-para-la-fecha-8-de-la-primera-c/198624"
+                        target="_blank">Se dieron a conocer los días y horarios de la octava jornada en la cuarta
+                        categoría del fútbol
+                        argentino.</a></p>
 
             </aside>
         </section>
 
         <section class="barraNoticias5">
             <aside class="aside-barra2">
-                <h5> <a href="https://www.soloascenso.com.ar/notas/racing-de-cordoba/con-cochas-con-interino-racing-empato-en-rio-cuarto/198604" target="_blank">Con Cochas con interino, Racing empató en Río Cuarto </a></h5>
+                <h5> <a href="https://www.soloascenso.com.ar/notas/racing-de-cordoba/con-cochas-con-interino-racing-empato-en-rio-cuarto/198604"
+                        target="_blank">Con Cochas con interino, Racing empató en Río Cuarto </a></h5>
                 <a href="https://www.soloascenso.com.ar/notas/racing-de-cordoba/con-cochas-con-interino-racing-empato-en-rio-cuarto/198604"
                     target="_blank"><img src="https://i.ibb.co/n0ksFX2/racing.jpg" alt="racing" border="0"></a>
-                <p> <a href="https://www.soloascenso.com.ar/notas/racing-de-cordoba/con-cochas-con-interino-racing-empato-en-rio-cuarto/198604" target="_blank">El conjunto encabezado por Diego Cochas igualó sin goles ante el León del Imperio.</a></p>
+                <p> <a href="https://www.soloascenso.com.ar/notas/racing-de-cordoba/con-cochas-con-interino-racing-empato-en-rio-cuarto/198604"
+                        target="_blank">El conjunto encabezado por Diego Cochas igualó sin goles ante el León del
+                        Imperio.</a></p>
             </aside>
         </section>
 
@@ -130,9 +192,10 @@
             <div class="articulo-caja">
                 <h3> <a href="https://www.soloascenso.com.ar/" target="_blank">Ascenso Argentino </a></h3>
                 <a href="https://www.soloascenso.com.ar/" target="_blank"><img
-                        src="https://i.ibb.co/Wv7nP6b/ascenso-argentino.jpg"  alt="ascenso-argentino" border="0"></a>
-                <p> <a href="https://www.soloascenso.com.ar/" target="_blank">Ultimas noticas de ascenso argentino:"El equipo de Gustavo Coleoni va por su primer vicoria".Nota
-                    hecha por @julianperez</a> </p>
+                        src="https://i.ibb.co/Wv7nP6b/ascenso-argentino.jpg" alt="ascenso-argentino" border="0"></a>
+                <p> <a href="https://www.soloascenso.com.ar/" target="_blank">Ultimas noticas de ascenso argentino:"El
+                        equipo de Gustavo Coleoni va por su primer vicoria".Nota
+                        hecha por @julianperez</a> </p>
             </div>
         </section>
     </main>
@@ -146,8 +209,12 @@
                     alt="icono de twitter"></a></button>
         <p> &copy 2024 por Ignacio Alcaniz</p>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

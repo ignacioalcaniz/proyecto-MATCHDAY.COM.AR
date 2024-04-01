@@ -17,17 +17,42 @@
         <h2><a href="../pages/equipos-favoritos.html"><img src="../assets/img/equipoFavorito.png" alt="">EQUIPOS
                 FAVORITOS</a></h2>
 
-        <nav>
-            <ul class="NavBar">
-                <li><a href="../index.html"><img src="../assets/img/homeIcono.png" alt="">HOME</a></li>
-                <li><a href="./noticias.html"><img src="../assets/img/iconoNoticias.png" alt="">NOTICIAS</a></li>
-                <li><a href="./ligas-locales.html"><img src="../assets/img/iconoLigaLocales.png" alt="">LIGAS
-                        LOCALES</a></li>
-                <li><a href="./futbol-internacional.html"><img src="../assets/img/iconoLigaEuropea.png" alt="">FUTBOL
-                        INTERNACIONAL</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg NavBar ">
+            <div class="container-fluid row  ">
+                <div class="col-2 ">
+                    <a class="navbar-brand" href="../index.html"><img src="../assets/img/homeIcono.png" alt="">HOME</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse col-10 row  " id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item col ">
+                            <a class="nav-link active" href="../pages/noticias.html"><img
+                                    src="../assets/img/iconoNoticias.png" alt="">NOTICIAS</a>
+                        </li>
+                        <li class="nav-item col ">
+                            <a class="nav-link active" aria-current="page" href="../pages/equipos-favoritos.html"><img
+                                    src="../assets/img/equipoFavorito.png" alt="">EQUIPOS FAVORITOS</a>
+                        </li>
+                        <li class="nav-item dropdown col">
+                            <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false"><img src="../assets/img/futbolicono.png" alt="">
+                                FUTBOL:
+                            </a>
+                            <ul class="dropdown-menu ">
+                                <li><a class="dropdown-item" href="../pages/ligas-locales.html"> <img
+                                            src="../assets/img/iconoLigaLocales.png" alt="">LOCAL</a></li>
+                                <li><a class="dropdown-item" href="../pages/futbol-internacional.html"> <img
+                                            src="../assets/img/iconoLigaEuropea.png" alt="">INTERNACIONAL</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-
     </header>
     <main>
         <div id="carouselExampleCaptions" class="carousel slide caja">
@@ -41,9 +66,10 @@
             </div>
             <div class="carousel-inner articuloCarrusel">
                 <div class="carousel-item active divC">
-                    <a href="https://www.marca.com/mx/futbol/premier-league/2024/03/23/65fe6e95e2704ee3048b4571.html" target="_blank"><img src="https://i.ibb.co/Pm9SwTw/chelsea-2.webp" class="d-block"
+                    <a href="https://www.marca.com/mx/futbol/premier-league/2024/03/23/65fe6e95e2704ee3048b4571.html"
+                        target="_blank"><img src="https://i.ibb.co/Pm9SwTw/chelsea-2.webp" class="d-block"
                             alt="chelsea-2" border="0"></a>
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-caption d-md-block">
                         <h3 class="h3"><a
                                 href="https://www.marca.com/mx/futbol/premier-league/2024/03/23/65fe6e95e2704ee3048b4571.html"
                                 target="_blank">Manchester City y Chelsea podrían ser expulsados de la Premier League
@@ -58,7 +84,7 @@
                     <a href="https://www.espn.com.ar/futbol/equipo/resultados/_/id/19/talleres-cordoba"
                         target="_blank"><img src="https://i.ibb.co/tZWNxzb/talleres.jpg" class="d-block" alt="talleres"
                             border="0"></a>
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-caption  d-md-block">
                         <h3 class="h3"><a
                                 href="https://www.espn.com.ar/futbol/equipo/resultados/_/id/19/talleres-cordoba"
                                 target="_blank">Talleres </a></h3>
@@ -66,19 +92,24 @@
                                 href="https://www.espn.com.ar/futbol/equipo/resultados/_/id/19/talleres-cordoba"
                                 target="_blank">Empate en el clasico de cordoba.Talleres nunca pudo aprovechar sus
                                 oportunidades para ponerse arriba
-                                en el marcador.Nahuel Bustos erro un penal en el final de la primera etapa.</a></p>
+                                en el marcador.</a></p>
                     </div>
                 </div>
                 <div class="carousel-item divC">
-                    <a href="https://www.marca.com/futbol/premier-league/2024/03/27/6603a57be2704e9e688b4584.html" target="_blank"><img src="https://i.ibb.co/vQDgxFy/liverpool.webp" class="d-block" alt="liverpool" border="0"></a>
-                    <div class="carousel-caption d-none d-md-block">
+                    <a href="https://www.marca.com/futbol/premier-league/2024/03/27/6603a57be2704e9e688b4584.html"
+                        target="_blank"><img src="https://i.ibb.co/vQDgxFy/liverpool.webp" class="d-block"
+                            alt="liverpool" border="0"></a>
+                    <div class="carousel-caption  d-md-block">
                         <h3 class="h3"><a
                                 href="https://www.marca.com/futbol/premier-league/2024/03/27/6603a57be2704e9e688b4584.html"
-                                target="_blank">Luis Díaz aspiraba a jugar en Real Madrid o Atlético: "No se pierde la esperanza"
+                                target="_blank">Luis Díaz aspiraba a jugar en Real Madrid o Atlético: "No se pierde la
+                                esperanza"
                             </a></h3>
                         <p class="pCarrusel"><a
                                 href="https://www.marca.com/futbol/premier-league/2024/03/27/6603a57be2704e9e688b4584.html"
-                                target="_blank">"Se aspiraba a que Luis Díaz pudiese venir Madrid. Ya Falcao había estado, James también... Finalmente no se dio, pero todavía no se pierde la esperanza..."</a></p>
+                                target="_blank">"Se aspiraba a que Luis Díaz pudiese venir Madrid. Ya Falcao había
+                                estado, James también... Finalmente no se dio, pero todavía no se pierde la
+                                esperanza..."</a></p>
                     </div>
                 </div>
             </div>
@@ -143,8 +174,7 @@
 
         <section class="barraNoticias4">
             <aside class="aside-barra2">
-                <h5><a href="https://www.youtube.com/embed/0Amd2lRsp1s?si=IZ1r70-0rh06xj5p" target="_blank">Barcelona
-                    </a></h5>
+
                 <iframe src="https://www.youtube.com/embed/0Amd2lRsp1s?si=IZ1r70-0rh06xj5p" title="YouTube video player"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -157,8 +187,7 @@
 
         <section class="barraNoticias5">
             <aside class="aside-barra2">
-                <h5><a href="https://www.youtube.com/embed/u9_BYPV13IQ?si=UXhNvdMpecLgg6kp" target="_blank">Real Madrid
-                    </a></h5>
+
                 <iframe src="https://www.youtube.com/embed/u9_BYPV13IQ?si=UXhNvdMpecLgg6kp" title="YouTube video player"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

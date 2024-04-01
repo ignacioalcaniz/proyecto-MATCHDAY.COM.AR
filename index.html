@@ -20,16 +20,42 @@
 
         <h2><a href="./index.html"><img src="./assets/img/homeIcono.png" alt=""> HOME</a></h2>
 
-        <nav class="container-fluid">
-            <ul class="NavBar">
-                <li><a href="./pages/noticias.html"><img src="./assets/img/iconoNoticias.png" alt="">NOTICIAS</a></li>
-                <li><a href="./pages/ligas-locales.html"> <img src="./assets/img/iconoLigaLocales.png" alt="">LIGAS
-                        LOCALES</a></li>
-                <li><a href="./pages/futbol-internacional.html"><img src="./assets/img/iconoLigaEuropea.png"
-                            alt="">FUTBOL INTERNACIONAL</a></li>
-                <li><a href="./pages/equipos-favoritos.html"> <img src="./assets/img/equipoFavorito.png" alt="">EQUIPOS
-                        FAVORITOS</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg NavBar ">
+            <div class="container-fluid row ">
+                <div class="col-2 ">
+                    <a class="navbar-brand " href="./index.html"><img src="./assets/img/homeIcono.png" alt="">HOME</a>
+                    <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse col-10 row " id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar-nav-scroll NAV"
+                        style="--bs-scroll-height: 100px;">
+                        <li class="nav-item col ">
+                            <a class="nav-link active" href="./pages/noticias.html"><img
+                                    src="./assets/img/iconoNoticias.png" alt="">NOTICIAS</a>
+                        </li>
+                        <li class="nav-item col ">
+                            <a class="nav-link active" aria-current="page" href="./pages/equipos-favoritos.html"><img
+                                    src="./assets/img/equipoFavorito.png" alt="">EQUIPOS FAVORITOS</a>
+                        </li>
+                        <li class="nav-item dropdown col">
+                            <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false"><img src="./assets/img/futbolicono.png" alt="">
+                                FUTBOL:
+                            </a>
+                            <ul class="dropdown-menu ">
+                                <li><a class="dropdown-item" href="./pages/ligas-locales.html"> <img
+                                            src="./assets/img/iconoLigaLocales.png" alt="">LOCAL</a></li>
+                                <li><a class="dropdown-item" href="./pages/futbol-internacional.html"> <img
+                                            src="./assets/img/iconoLigaEuropea.png" alt="">INTERNACIONAL</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
 
 
@@ -51,7 +77,7 @@
                     <a href="https://www.ole.com.ar/river-plate/river-plate-sorteo-copa-libertadores-record-interacciones-instagram_0_GVwz849yvT.html"
                         target="_blank"><img src="https://i.ibb.co/tJ74bv6/liber.jpg" class="d-block" alt="liber"
                             border="0"></a>
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-caption  d-md-block ">
                         <h3 class="h3"><a
                                 href="https://www.ole.com.ar/river-plate/river-plate-sorteo-copa-libertadores-record-interacciones-instagram_0_GVwz849yvT.html"
                                 target="_blank">Furor copero: el récord en redes que alcanzó River durante el sorteo de
@@ -66,7 +92,7 @@
                     <a href="https://www.marca.com/mx/futbol/2024/03/26/6602c8f4268e3ea45c8b4586.html"
                         target="_blank"><img src="https://i.ibb.co/wwdxVsK/futbol-inglaterra-brasil-1.jpg"
                             class="d-block" futbol-inglaterra-brasil-1" border="0"></a>
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-caption  d-md-block ">
                         <h3 class="h3"><a
                                 href="https://www.marca.com/mx/futbol/2024/03/26/6602c8f4268e3ea45c8b4586.html"
                                 target="_blank">Endrick se muestra en Europa</a></h3>
@@ -80,7 +106,7 @@
                     <a href="https://www.marca.com/futbol/barcelona/2024/03/25/660184af22601d2e2c8b45b5.html"
                         target="_blank"><img src="https://i.ibb.co/XyV6QLz/barcelona.webp" class="d-block"
                             alt="barcelona" border="0"></a>
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-caption d-md-block">
                         <h3 class="h3"><a
                                 href="https://www.marca.com/futbol/barcelona/2024/03/25/660184af22601d2e2c8b45b5.html"
                                 target="_blank">Barcelona</a></h3>
@@ -101,8 +127,8 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-        
-        
+
+
 
         <section class="publicidad">
             <aside>

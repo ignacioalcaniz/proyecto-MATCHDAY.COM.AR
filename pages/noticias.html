@@ -5,7 +5,9 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>NOTICIAS</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+                integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+                crossorigin="anonymous">
         <link rel="stylesheet" href="../css/style.css">
 </head>
 
@@ -14,65 +16,130 @@
         <header class="container-fluid">
                 <h1><a href="../index.html">MATCHDAY.COM.AR </a> </h1>
                 <img class="logo" src="../assets/img/iconopagina.png" alt="">
-                <h2><a href="../pages/noticias.html"><img src="../assets/img/iconoNoticias.png" alt="">NOTICIAS</a>  </h2>
+                <h2><a href="../pages/noticias.html"><img src="../assets/img/iconoNoticias.png" alt="">NOTICIAS</a>
+                </h2>
 
-                <nav>
-                        <ul class="NavBar">
-                                <li><a href="../index.html"><img src="../assets/img/homeIcono.png" alt="">HOME</a></li>
-                                <li><a href="./ligas-locales.html"><img src="../assets/img/iconoLigaLocales.png"
-                                                        alt="">LIGAS LOCALES</a></li>
-                                <li><a href="./futbol-internacional.html"><img src="../assets/img/iconoLigaEuropea.png"
-                                                        alt="">FUTBOL INTERNACIONAL</a></li>
-                                <li><a href="./equipos-favoritos.html"><img src="../assets/img/equipoFavorito.png"
-                                                        alt="">EQUIPOS FAVORITOS</a></li>
-                        </ul>
+
+                <nav class="navbar navbar-expand-lg NavBar ">
+                        <div class="container-fluid row  ">
+                                <div class="col-2 ">
+                                        <a class="navbar-brand" href="../index.html"><img
+                                                        src="../assets/img/homeIcono.png" alt="">HOME</a>
+                                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#navbarSupportedContent"
+                                                aria-controls="navbarSupportedContent" aria-expanded="false"
+                                                aria-label="Toggle navigation">
+                                                <span class="navbar-toggler-icon"></span>
+                                        </button>
+                                </div>
+                                <div class="collapse navbar-collapse col-10 row  " id="navbarSupportedContent">
+                                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar-nav-scroll"
+                                                style="--bs-scroll-height: 100px;">
+                                                <li class="nav-item col ">
+                                                        <a class="nav-link active" href="../pages/noticias.html"><img
+                                                                        src="../assets/img/iconoNoticias.png"
+                                                                        alt="">NOTICIAS</a>
+                                                </li>
+                                                <li class="nav-item col ">
+                                                        <a class="nav-link active" aria-current="page"
+                                                                href="../pages/equipos-favoritos.html"><img
+                                                                        src="../assets/img/equipoFavorito.png"
+                                                                        alt="">EQUIPOS FAVORITOS</a>
+                                                </li>
+                                                <li class="nav-item dropdown col">
+                                                        <a class="nav-link dropdown-toggle " href="#" role="button"
+                                                                data-bs-toggle="dropdown" aria-expanded="false"><img
+                                                                        src="../assets/img/futbolicono.png" alt="">
+                                                                FUTBOL:
+                                                        </a>
+                                                        <ul class="dropdown-menu ">
+                                                                <li><a class="dropdown-item"
+                                                                                href="../pages/ligas-locales.html"> <img
+                                                                                        src="../assets/img/iconoLigaLocales.png"
+                                                                                        alt="">LOCAL</a></li>
+                                                                <li><a class="dropdown-item"
+                                                                                href="../pages/futbol-internacional.html">
+                                                                                <img src="../assets/img/iconoLigaEuropea.png"
+                                                                                        alt="">INTERNACIONAL</a></li>
+                                                        </ul>
+                                                </li>
+                                        </ul>
+                                </div>
+                        </div>
                 </nav>
 
         </header>
         <main>
                 <div id="carouselExampleCaptions" class="carousel slide caja">
                         <div class="carousel-indicators botonCarrusel">
-                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                        aria-label="Slide 3"></button>
                         </div>
                         <div class="carousel-inner articuloCarrusel">
-                          <div class="carousel-item active divC">
-                                <a href="https://www.excelsior.com.mx/adrenalina/kylian-mbappe-estaria-99-amarrado-al-real-madrid-aseguro-javier-tebas/1637468"
-                                target="_blank"><img src="https://i.ibb.co/hM567f8/mbappe.webp" class="d-block" alt="mbappe"
-                                        border="0"></a>
-                            <div class="carousel-caption d-none d-md-block">
-                                <h3 class="h3"><a href="https://www.excelsior.com.mx/adrenalina/kylian-mbappe-estaria-99-amarrado-al-real-madrid-aseguro-javier-tebas/1637468" target="_blank">El drama Mbappe continua...</a></h3>
-                                <p class="pCarrusel"><a href="https://www.excelsior.com.mx/adrenalina/kylian-mbappe-estaria-99-amarrado-al-real-madrid-aseguro-javier-tebas/1637468" target="_blank"> "Kylian Mbappé estaría 99% 'amarrado' al Real Madrid, aseguró Javier Tebas".Nota
-                                        hecha por:@facugonzales </a></p>
-                            </div>
-                          </div>
-                          <div class="carousel-item divC">
-                                <a href="https://www.espn.com.ar/futbol/mundial/nota/_/id/13431073/scaloni-confirmo-dos-nombres-en-argentina-para-la-copa-america" target="_blank"><img src="https://i.ibb.co/3T3VvWR/scaloni.jpg" class="d-block" alt="scaloni" border="0"></a>
-                            <div class="carousel-caption d-none d-md-block">
-                              <h3 class="h3"><a href="https://www.espn.com.ar/futbol/mundial/nota/_/id/13431073/scaloni-confirmo-dos-nombres-en-argentina-para-la-copa-america" target="_blank">Scaloni confirmó dos nombres para la Copa América y al resto, "pico y pala"</a></h3>
-                              <p class="pCarrusel"> <a   href="https://www.espn.com.ar/futbol/mundial/nota/_/id/13431073/scaloni-confirmo-dos-nombres-en-argentina-para-la-copa-america" target="_blank">Scaloni contó por qué Argentina levantó y ganó, repartió elogios y sacó cuentas para la lista de la Copa América</a></p>
-                            </div>
-                          </div>
-                          <div class="carousel-item divC">
-                                <a href="https://www.espn.com.ar/futbol/alemania/nota/_/id/13431357/philipp-lahm-demichelis-tiene-una-ventaja-para-ser-dt-de-bayern-munich-bundesliga-alemania-euro" target="_blank"><img src="https://i.ibb.co/5krcc6y/bayerm.jpg" class="d-block" alt="bayerm" border="0"></a>
-                            <div class="carousel-caption d-none d-md-block">
-                              <h3 class="h3"><a href="https://www.espn.com.ar/futbol/alemania/nota/_/id/13431357/philipp-lahm-demichelis-tiene-una-ventaja-para-ser-dt-de-bayern-munich-bundesliga-alemania-euro" target="_blank">Philipp Lahm: "Demichelis tiene una ventaja para ser entrenador de Bayern Munich"
-                        </a></h3>
-                              <p class="pCarrusel"><a   href="https://www.espn.com.ar/futbol/alemania/nota/_/id/13431357/philipp-lahm-demichelis-tiene-una-ventaja-para-ser-dt-de-bayern-munich-bundesliga-alemania-euro" target="_blank">Philipp Lahm analiza la actualidad de Bayern Munich y la definición de la Bundesliga</a></p>
-                            </div>
-                          </div>
+                                <div class="carousel-item active divC">
+                                        <a href="https://www.excelsior.com.mx/adrenalina/kylian-mbappe-estaria-99-amarrado-al-real-madrid-aseguro-javier-tebas/1637468"
+                                                target="_blank"><img src="https://i.ibb.co/hM567f8/mbappe.webp"
+                                                        class="d-block" alt="mbappe" border="0"></a>
+                                        <div class="carousel-caption  d-md-block">
+                                                <h3 class="h3"><a
+                                                                href="https://www.excelsior.com.mx/adrenalina/kylian-mbappe-estaria-99-amarrado-al-real-madrid-aseguro-javier-tebas/1637468"
+                                                                target="_blank">El drama Mbappe continua...</a></h3>
+                                                <p class="pCarrusel"><a
+                                                                href="https://www.excelsior.com.mx/adrenalina/kylian-mbappe-estaria-99-amarrado-al-real-madrid-aseguro-javier-tebas/1637468"
+                                                                target="_blank"> "Kylian Mbappé estaría 99% 'amarrado'
+                                                                al Real Madrid, aseguró Javier Tebas".Nota
+                                                                hecha por:@facugonzales </a></p>
+                                        </div>
+                                </div>
+                                <div class="carousel-item divC">
+                                        <a href="https://www.espn.com.ar/futbol/mundial/nota/_/id/13431073/scaloni-confirmo-dos-nombres-en-argentina-para-la-copa-america"
+                                                target="_blank"><img src="https://i.ibb.co/3T3VvWR/scaloni.jpg"
+                                                        class="d-block" alt="scaloni" border="0"></a>
+                                        <div class="carousel-caption  d-md-block">
+                                                <h3 class="h3"><a
+                                                                href="https://www.espn.com.ar/futbol/mundial/nota/_/id/13431073/scaloni-confirmo-dos-nombres-en-argentina-para-la-copa-america"
+                                                                target="_blank">Scaloni confirmó dos nombres para la
+                                                                Copa América y al resto, "pico y pala"</a></h3>
+                                                <p class="pCarrusel"> <a
+                                                                href="https://www.espn.com.ar/futbol/mundial/nota/_/id/13431073/scaloni-confirmo-dos-nombres-en-argentina-para-la-copa-america"
+                                                                target="_blank">Scaloni contó por qué Argentina levantó
+                                                                y ganó, repartió elogios y sacó cuentas para la lista de
+                                                                la Copa América</a></p>
+                                        </div>
+                                </div>
+                                <div class="carousel-item divC">
+                                        <a href="https://www.espn.com.ar/futbol/alemania/nota/_/id/13431357/philipp-lahm-demichelis-tiene-una-ventaja-para-ser-dt-de-bayern-munich-bundesliga-alemania-euro"
+                                                target="_blank"><img src="https://i.ibb.co/5krcc6y/bayerm.jpg"
+                                                        class="d-block" alt="bayerm" border="0"></a>
+                                        <div class="carousel-caption  d-md-block">
+                                                <h3 class="h3"><a
+                                                                href="https://www.espn.com.ar/futbol/alemania/nota/_/id/13431357/philipp-lahm-demichelis-tiene-una-ventaja-para-ser-dt-de-bayern-munich-bundesliga-alemania-euro"
+                                                                target="_blank">Philipp Lahm: "Demichelis tiene una
+                                                                ventaja para ser entrenador de Bayern Munich"
+                                                        </a></h3>
+                                                <p class="pCarrusel"><a
+                                                                href="https://www.espn.com.ar/futbol/alemania/nota/_/id/13431357/philipp-lahm-demichelis-tiene-una-ventaja-para-ser-dt-de-bayern-munich-bundesliga-alemania-euro"
+                                                                target="_blank">Philipp Lahm analiza la actualidad de
+                                                                Bayern Munich y la definición de la Bundesliga</a></p>
+                                        </div>
+                                </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
                         </button>
-                      </div>
-                           
+                </div>
+
 
                 <section class="publicidad">
                         <aside>
@@ -85,8 +152,11 @@
 
                 <section class="barraNoticias">
                         <aside class="aside-barra">
-                                <h4><a href="https://www.marca.com/futbol/futbol-internacional.html" target="_blank">Futbol Internacional:</a></h4>
-                                <p> <a href="https://www.marca.com/futbol/futbol-internacional.html" target="_blank">Dezerbi o Xavi Alonso para el Bayern!.Todas las noticias internacionales aqui:</a> </p>
+                                <h4><a href="https://www.marca.com/futbol/futbol-internacional.html"
+                                                target="_blank">Futbol Internacional:</a></h4>
+                                <p> <a href="https://www.marca.com/futbol/futbol-internacional.html"
+                                                target="_blank">Dezerbi o Xavi Alonso para el Bayern!.Todas las noticias
+                                                internacionales aqui:</a> </p>
                                 <a href="https://www.marca.com/futbol/futbol-internacional.html"><img
                                                 src="https://i.ibb.co/MnjKvJN/DEZERBI.jpg" alt="DEZERBI" border="0"></a>
                         </aside>
@@ -94,8 +164,11 @@
 
                 <section class="barraNoticias2">
                         <aside class="aside-barra">
-                                <h4><a href="https://www.futbolargentino.com/primera-division/" target="_blank">Futbol Argentino:</a></h4>
-                                <p> <a href="https://www.futbolargentino.com/primera-division/" target="_blank">Tévez lo limpió y hoy es máximo goleador mundial con ¡14 goles en 6 partidos!</a></p>
+                                <h4><a href="https://www.futbolargentino.com/primera-division/" target="_blank">Futbol
+                                                Argentino:</a></h4>
+                                <p> <a href="https://www.futbolargentino.com/primera-division/" target="_blank">Tévez lo
+                                                limpió y hoy es máximo goleador mundial con ¡14 goles en 6 partidos!</a>
+                                </p>
                                 <a href="https://www.futbolargentino.com/primera-division/" target="_blank"><img
                                                 src="https://i.ibb.co/KGSPfQp/independiente.webp" alt="independiente"
                                                 border="0"></a>
@@ -104,9 +177,11 @@
 
                 <section class="barraNoticias3">
                         <aside class="aside-barra">
-                                <h4><a href="https://www.ole.com.ar/seleccion" target="_blank">Seleccion Argentina:</a></h4>
-                                <p> <a href="https://www.ole.com.ar/seleccion" target="_blank">La Selección tiene dos rivales a la vista: Ecuador y Guatemala.Todas las noticias de
-                                        la seleccion aqui :</a></p>
+                                <h4><a href="https://www.ole.com.ar/seleccion" target="_blank">Seleccion Argentina:</a>
+                                </h4>
+                                <p> <a href="https://www.ole.com.ar/seleccion" target="_blank">La Selección tiene dos
+                                                rivales a la vista: Ecuador y Guatemala.Todas las noticias de
+                                                la seleccion aqui :</a></p>
                                 <a href="https://www.ole.com.ar/seleccion" target="_blank"><img
                                                 src="https://i.ibb.co/mGvJmT8/seleccion-argentina.jpg"
                                                 alt="seleccion-argentina" border="0"></a>
@@ -115,35 +190,46 @@
 
                 <section class="barraNoticias4">
                         <aside class="aside-barra2">
-                                <h5><a href="https://www.infobae.com/espana/deportes/2024/03/12/rafa-benitez-destituido-como-entrenador-del-celta-de-vigo/" target="_blank">Rafa Benítez, destituido como entrenador del Celta de Vigo.</a></h5>
+                                <h5><a href="https://www.infobae.com/espana/deportes/2024/03/12/rafa-benitez-destituido-como-entrenador-del-celta-de-vigo/"
+                                                target="_blank">Rafa Benítez, destituido como entrenador del Celta de
+                                                Vigo.</a></h5>
                                 <a href="https://www.infobae.com/espana/deportes/2024/03/12/rafa-benitez-destituido-como-entrenador-del-celta-de-vigo/"
                                         target="_blank"><img src="https://i.ibb.co/WgrFpyj/rafa-benitez.jpg"
                                                 alt="rafa-benitez" border="0"></a>
-                                <p> <a href="https://www.infobae.com/espana/deportes/2024/03/12/rafa-benitez-destituido-como-entrenador-del-celta-de-vigo/" target="_blank">El conjunto gallego considera que “no ha obtenido los resultados esperados” con el
-                                        técnico madrileño al frente.</a></p>
+                                <p> <a href="https://www.infobae.com/espana/deportes/2024/03/12/rafa-benitez-destituido-como-entrenador-del-celta-de-vigo/"
+                                                target="_blank">El conjunto gallego considera que “no ha obtenido los
+                                                resultados esperados” con el
+                                                técnico madrileño al frente.</a></p>
                         </aside>
                 </section>
 
                 <section class="barraNoticias5">
                         <aside class="aside-barra2">
-                                <h5><a href="https://as.com/futbol/primera/iniesta-ancelotti-tiene-un-merito-increible-n/" target="_blank">Iniesta: “Ancelotti tiene un mérito increíble”</a></h5>
+                                <h5><a href="https://as.com/futbol/primera/iniesta-ancelotti-tiene-un-merito-increible-n/"
+                                                target="_blank">Iniesta: “Ancelotti tiene un mérito increíble”</a></h5>
                                 <a href="https://as.com/futbol/primera/iniesta-ancelotti-tiene-un-merito-increible-n/"
                                         target="_blank"><img src="https://i.ibb.co/MCgY7nH/ancelotti.jpg"
                                                 alt="ancelotti" border="0"></a>
-                                <p> <a href="https://as.com/futbol/primera/iniesta-ancelotti-tiene-un-merito-increible-n/" target="_blank">El exjugador del Barça habla de la actualidad del Barça y de la gestión de Luis
-                                        Enrique.</a></p>
+                                <p> <a href="https://as.com/futbol/primera/iniesta-ancelotti-tiene-un-merito-increible-n/"
+                                                target="_blank">El exjugador del Barça habla de la actualidad del Barça
+                                                y de la gestión de Luis
+                                                Enrique.</a></p>
                         </aside>
                 </section>
 
                 <section class="caja2">
                         <div class="articulo-caja">
-                                <h3><a href="https://www.youtube.com/embed/w8CZTqnr0Lw?si=I94UMW3-640efgj8" target="_blank">El barcelona de Xavi sigue sin ganar por la Champions league </a></h3>
+                                <h3><a href="https://www.youtube.com/embed/w8CZTqnr0Lw?si=I94UMW3-640efgj8"
+                                                target="_blank">El barcelona de Xavi sigue sin ganar por la Champions
+                                                league </a></h3>
                                 <iframe src="https://www.youtube.com/embed/w8CZTqnr0Lw?si=I94UMW3-640efgj8"
                                         title="YouTube video player" frameborder="0"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                         allowfullscreen></iframe>
-                                <p> <a href="https://www.youtube.com/embed/w8CZTqnr0Lw?si=I94UMW3-640efgj8" target="_blank">Xavi Hernandez hablo en conferencia de prensa despues del partido contra el napoli en
-                                        la ida de los octavos de final de la Champions League.</a></p>
+                                <p> <a href="https://www.youtube.com/embed/w8CZTqnr0Lw?si=I94UMW3-640efgj8"
+                                                target="_blank">Xavi Hernandez hablo en conferencia de prensa despues
+                                                del partido contra el napoli en
+                                                la ida de los octavos de final de la Champions League.</a></p>
                         </div>
                 </section>
 
@@ -158,8 +244,12 @@
                 <p> &copy 2024 por Ignacio Alcaniz</p>
 
         </footer>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+                integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+                crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+                integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+                crossorigin="anonymous"></script>
 </body>
 
 </html>
