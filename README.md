@@ -8,7 +8,7 @@
 - Y por ultimo la seccion EQUIPOS FAVORITOS donde podras ver todas las noticias de tus equipos que hayas seleccionado como favoritos.
 - En todas las paginas se utiliza display flex para el nav y display grid para el main.
 - se utilizo bootstrap para el nav que luego se convierte en menu hamburguesa en los tamanos para celular y tablet, y tambien se utilizo bootstrap para la creacion de un carrusel para todas las paginas
-- todas las paginas son resonsive.
+- todas las paginas son responsive.
 ## TECNOLOGIAS APLICADAS EN EL PROYECTO:
 - HTML
 - CSS
