@@ -1658,6 +1658,69 @@ footer button:hover {
 
 }
 
+
+@media (max-width:415px){
+    .caja{
+        width: 374px;
+       
+    }
+    .caja2{
+        width: 374px;
+    }
+    .barraNoticias{
+        width: 374px;
+    }
+    .barraNoticias2{
+        width: 374px;
+    }
+    .barraNoticias3{
+        width: 374px;
+    }
+    .barraNoticias4{
+        width: 374px;
+    
+}
+.barraNoticias5{
+    width: 374px;
+}
+.aside-barra p{
+    border: 1px solid black;
+}
+.aside-barra2 p{
+    border: 1px solid black;
+}
+
+}
+@media (max-width:390px){
+    .caja{
+        width: 320px;
+    }
+    .caja2{
+        width: 320px;
+    }
+    .barraNoticias{
+        width: 320px;
+    }
+    .barraNoticias2{
+        width: 320px;
+    }
+    .barraNoticias3{
+        width: 320px;
+    }
+    .barraNoticias4{
+        width: 320px;
+    }
+    .barraNoticias5{
+        width: 320px;
+    }
+    .aside-barra p{
+        border: 1px solid black;
+    }
+    .aside-barra2 p{
+        border: 1px solid black;
+    }
+}
+
 @media (max-width:376px) {
     .navbar-brand {
         position: absolute;
@@ -1741,7 +1804,42 @@ footer button:hover {
     .pCarrusel {
         font-size: .8125rem;
     }
+    .aside-barra p{
+        border: 1px solid black;
+    }
+    .aside-barra2 p{
+        border: 1px solid black;
+    }
+}
 
+@media (max-width:364px){
+  .caja{
+    width: 310px;
+  }
+  .caja2{
+    width: 310px;
+  }
+  .barraNoticias{
+    width: 310px;
+  }
+  .barraNoticias2{
+    width: 310px;
+  }
+  .barraNoticias3{
+    width: 310px;
+  }
+  .barraNoticias4{
+    width: 310px;
+  }
+  .barraNoticias5{
+    width: 310px;
+  }
+  .aside-barra p{
+    border: 1px solid black;
+  }
+  .aside-barra2 p{
+    border: 1px solid black;
+  }
 }
 
 @media (max-width:321px) {
