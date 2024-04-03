@@ -18,7 +18,9 @@ body {
 }
 
 header {
-    background-color: rgba(0, 128, 0, 0.944);
+    background-image: url(https://i.pinimg.com/564x/a3/55/d6/a355d6990caee1c570a8e8435b1e131b.jpg);
+    background-repeat: no-repeat;
+    background-size: 1500px;
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
     font-weight: 37.5rem;
@@ -40,7 +42,7 @@ header {
 nav {
 
     border: 2px solid black;
-    background-color: darkgreen;
+ background-color: darkgreen;
     height: 3.125rem;
 
 
@@ -136,7 +138,7 @@ nav:hover {
 }
 
 header h1 {
-    background-color: darkgreen;
+  background-color: darkgreen;
     border: 2px solid black;
     margin-top: 0%;
 
@@ -272,6 +274,7 @@ main {
 
 .caja:hover {
     box-shadow: 2px 4px 2px 2px black;
+    border: 3px solid white;
 }
 
 .caja2 {
@@ -293,6 +296,7 @@ main {
 
 .caja2:hover {
     box-shadow: 2px 4px 2px 2px black;
+    border: 3px solid white;
 }
 
 
@@ -444,6 +448,7 @@ main {
     grid-column: 4/5;
     grid-row: 1/4;
     margin: auto;
+  
 
 
 
@@ -453,6 +458,7 @@ main {
 
 .publicidad:hover {
     box-shadow: 2px 4px 2px 2px black;
+    border: 3px solid white;
 }
 
 .publicidad h4 {
@@ -577,6 +583,7 @@ footer button:hover {
 
 .barraNoticias:hover {
     box-shadow: 2px 4px 2px 2px black;
+    border: 2px solid white;
 }
 
 .barraNoticias2 {
@@ -594,6 +601,7 @@ footer button:hover {
 
 .barraNoticias2:hover {
     box-shadow: 2px 4px 2px 2px black;
+    border: 2px solid white;
 }
 
 .barraNoticias3 {
@@ -611,6 +619,7 @@ footer button:hover {
 
 .barraNoticias3:hover {
     box-shadow: 2px 4px 2px 2px black;
+    border: 2px solid white;
 }
 
 .barraNoticias4 {
@@ -628,6 +637,7 @@ footer button:hover {
 
 .barraNoticias4:hover {
     box-shadow: 2px 4px 2px 2px black;
+    border: 2px solid white;
 }
 
 
@@ -645,6 +655,7 @@ footer button:hover {
 
 .barraNoticias5:hover {
     box-shadow: 2px 4px 2px 2px black;
+    border: 2px solid white;
 }
 
 .aside-barra {
@@ -1661,27 +1672,27 @@ footer button:hover {
 
 @media (max-width:415px){
     .caja{
-        width: 374px;
+        width: 23.375rem;
        
     }
     .caja2{
-        width: 374px;
+        width: 23.375rem;
     }
     .barraNoticias{
-        width: 374px;
+        width: 23.375rem;
     }
     .barraNoticias2{
-        width: 374px;
+        width: 23.375rem;
     }
     .barraNoticias3{
-        width: 374px;
+        width: 23.375rem;
     }
     .barraNoticias4{
-        width: 374px;
+        width: 23.375rem;
     
 }
 .barraNoticias5{
-    width: 374px;
+    width: 23.375rem;
 }
 .aside-barra p{
     border: 1px solid black;
@@ -1693,25 +1704,25 @@ footer button:hover {
 }
 @media (max-width:390px){
     .caja{
-        width: 350px;
+        width: 21.875rem;
     }
     .caja2{
-        width: 350px;
+        width: 21.875rem;
     }
     .barraNoticias{
-        width: 350px;
+        width: 21.875rem;
     }
     .barraNoticias2{
-        width: 350px;
+        width: 21.875rem;
     }
     .barraNoticias3{
-        width: 350px;
+        width: 21.875rem;
     }
     .barraNoticias4{
-        width: 350px;
+        width: 21.875rem;
     }
     .barraNoticias5{
-        width: 350px;
+        width: 21.875rem;
     }
     .aside-barra p{
         border: 1px solid black;
@@ -1814,25 +1825,25 @@ footer button:hover {
 
 @media (max-width:364px){
   .caja{
-    width: 310px;
+    width: 19.375rem;
   }
   .caja2{
-    width: 310px;
+    width: 19.375rem;
   }
   .barraNoticias{
-    width: 310px;
+    width: 19.375rem;
   }
   .barraNoticias2{
-    width: 310px;
+    width: 19.375rem;
   }
   .barraNoticias3{
-    width: 310px;
+    width: 19.375rem;
   }
   .barraNoticias4{
-    width: 310px;
+    width: 19.375rem;
   }
   .barraNoticias5{
-    width: 310px;
+    width: 19.375rem;
   }
   .aside-barra p{
     border: 1px solid black;
