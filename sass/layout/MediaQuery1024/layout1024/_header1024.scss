@@ -1,0 +1,33 @@
+header{
+    height: 15rem;
+    h1{
+        background-color: map-get($estilos, fondoPrincipal );
+        a{
+            font-size: 1.875rem;
+            text-shadow: 0, 5px 0, 5px white;
+        }
+    }
+    .logo {
+        width: 4.375rem;
+        height: 4.375rem;
+    }
+    h2{
+        font-size: 1.375rem;
+        text-shadow: 0, 5px 0, 5px white;
+        img{
+            height: 1.375rem;
+            width: 1.375rem;
+        }
+    }
+    .NavBar{
+        background-color: map-get($estilos, fondoPrincipal);
+        a{
+            font-size: 1.125rem;
+            text-shadow: 0, 5px 0, 5px black;
+            img{
+                height: 1.125rem;
+                width: 1.125rem;
+            }
+        }
+    }
+}

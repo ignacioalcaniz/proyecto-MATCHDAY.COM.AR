@@ -1,0 +1,164 @@
+.publicidad{
+    border: 3px solid black;
+    text-align: center;
+    height: 100%;
+    width: 90%;
+    grid-column: 4/5;
+    grid-row: 1/4;
+    margin: auto;
+    &:hover{
+        box-shadow: 2px 4px 2px 2px black;
+        border: 3px solid white;
+    }
+    aside{
+        width: 100%;
+        height: 100%;
+        @include grid(repeat(2, 1fr),repeat(1, 1fr),none,none);
+        h4{
+            color: map-get($estilos,fuentesPrincipales );
+            text-decoration-line: underline;
+            font-family: "Oswald", sans-serif;
+            font-size: .875rem;
+            text-decoration: underline;
+            width: 100%;
+            height: 80%;
+            grid-column: 1/3;
+            grid-row: 1/1;
+            order: 2;
+            a{
+                color:map-get($estilos, fuentesPrincipales );
+                background-color:map-get($estilos, fondoPrincipal );
+                align-self: center;
+                filter:opacity(50%);
+                &:hover{
+                    color: map-get($estilos, parrafosPrincipales );
+                    font-size: 1rem;
+                    background-color: map-get($estilos, fondoPrincipal );
+                    filter: opacity(100%);
+                }
+            }
+        }
+        a{
+            height: 100%;
+            width: 100%;
+            grid-column: 1/3;
+            grid-row: 1/2;
+            order: 1;
+            img{
+                height: 100%;
+                width: 100%;
+                grid-column: 1/3;
+                grid-row: 1/2;
+                order: 1;
+                &:active{
+                    filter: opacity(60%);
+
+                }
+            }
+        }
+    }
+
+        
+      
+    }
+
+
+
+
+
+.caja{
+    @extend .carrusel;
+    z-index: index none;
+    height: 90%;
+    grid-row: 6/11;
+    .articulo-caja {
+        width: 100%;
+        height: 100%;
+        @include grid(repeat(4, 1fr),repeat(4, 1fr),none,none);
+        h3{
+            text-align: center;
+            text-decoration-line: underline;
+            font-family: "Oswald", sans-serif;
+            font-size: 1.5625rem;
+            text-shadow: 1px 1px black;
+            width: 100%;
+            height: 100%;
+            grid-column: 1/5;
+            grid-row: 1/2;
+            order: 2;
+            align-content: center;
+            a{
+                color: map-get($estilos, parrafosPrincipales );
+                background-color: map-get($estilos, fondoPrincipal );
+                &:hover{
+                    color: map-get($estilos, fuentesPrincipales );
+                    font-size: 1.5625rem;
+                    background-color: white;
+                }
+            }
+        }
+       a{
+        width: 100%;
+        height: 100%;
+        grid-column: 1/5;
+        grid-row: 1/5;
+        order: 1;
+        img{
+            width: 100%;
+            height: 100%;
+            grid-column: 1/5;
+            grid-row: 1/5;
+            order: 1;
+            &:active{
+                filter: opacity(60%);
+            }
+
+        }
+       }
+       iframe{
+        width: 100%;
+        height: 100%;
+        grid-column: 1/5;
+        grid-row: 1/5;
+        order: 1;
+       }
+       p{
+        font-family: "Exo", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 100px;
+        font-style: normal;
+        font-size: 16px;
+        width: 100%;
+        height: 40%;
+        text-align: center;
+        grid-column: 1/5;
+        grid-row: 4/5;
+        align-self: last baseline;
+        text-align: center;
+        order: 2;
+        a{
+            color:map-get($estilos, fuentesPrincipales);
+            text-decoration: none;
+            background-color: map-get($estilos, fondoPrincipal );
+            &:active{
+                color: green;
+            }
+            &:hover{
+                text-decoration: underline;
+                color: map-get($estilos, fuentesPrincipales );
+                background-color: white;
+            }
+            &::selection{
+                background-color: black;
+                color: green;
+            }
+        
+        }
+
+       }
+    
+    
+    }
+    
+  
+}

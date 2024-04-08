@@ -1,0 +1,62 @@
+.carrusel{
+    font-family: "Exo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 6.25rem;
+    font-style: normal;
+    border: 4px solid black;
+    border-radius: .3125rem;
+    grid-column: 2/4;
+    grid-row: 1/6;
+    width: 100%;
+    height: 100%;
+    z-index: 1; 
+    &:hover{
+        box-shadow: 2px 4px 2px 2px black;
+        border: 3px solid white;
+    }
+    .articuloCarrusel {
+        width: 100%;
+        height: 100%;
+        .divC {
+            width: 100%;
+            height: 100%;
+            a{
+                width: 100%;
+                height: 100%;
+                img{
+                    width: 100%;
+                    height: 100%;  
+                }
+            }
+            .h3{
+                text-align: center;
+                text-decoration-line: underline;
+                font-family: "Oswald", sans-serif;
+                color:map-get($estilos, fuentesPrincipales );
+                font-size: 1.4rem;
+                text-shadow: 1px 1px black;
+                background-color:map-get($estilos, fondoPrincipal );
+                width: 100%;
+                height: 10%;
+                a{
+                    color: map-get($estilos, fuentesPrincipales ); 
+                    &:hover{
+                        color:map-get($estilos, parrafosPrincipales);
+                        font-size: 1.5625rem;
+                    } 
+                }
+            }
+            .pCarrusel {
+                a{
+                    color: map-get($estilos, parrafosPrincipales);
+                    text-decoration: none;
+                    &:hover{
+                        text-decoration: underline;
+                        color: lightgreen;
+                        background-color: black;
+                    }
+                }
+            }
+        }
+    }
+};

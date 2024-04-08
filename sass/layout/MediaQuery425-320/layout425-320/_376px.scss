@@ -1,0 +1,104 @@
+header{
+    .NavBar{
+        .navbar-brand {
+            position: absolute;
+            right: 35%;
+            top: 4%;
+        }
+        .navbar-toggler {
+            height: 2rem;
+            width: 3.4375rem;
+            border: .0625rem solid black;
+    
+        }
+        .navbar-nav {
+            width: 50%;
+            border: .125rem solid black;
+            background-image: url(https://i.pinimg.com/564x/a3/55/d6/a355d6990caee1c570a8e8435b1e131b.jpg);
+            border-radius: .125rem .125rem;
+            margin-left: 3.125rem;
+            z-index: 1000;
+       
+
+            .dropdown-item {
+                border: .0625rem solid black;
+                border-radius: .3125rem;
+                width: 80%;
+                background-color: green;
+            }
+            
+     }
+    }
+}
+main{
+    .carrusel {
+        width: 21.875rem;
+        height: 18.75rem;
+        
+    .h3 {
+        font-size: .9375rem;
+    }
+    .pCarrusel {
+        font-size: .8125rem;
+    }
+
+
+    }
+    .caja {
+        width: 21.875rem;
+        height: 18.75rem;
+        .articulo-caja{
+            p{
+                align-self: flex-start; 
+            }
+        }
+
+    }
+    
+    .barraNoticias {
+        width: 21.875rem;
+        .aside-barra{
+            p{
+                border: 1px solid black; 
+            }
+        }
+    }
+
+    .barraNoticias2 {
+        width: 21.875rem;
+        .aside-barra{
+            p{
+                border: 1px solid black; 
+            }
+        }
+    }
+
+    .barraNoticias3 {
+        width: 21.875rem;
+        .aside-barra{
+            p{
+                border: 1px solid black; 
+            }
+        }
+    }
+
+    .barraNoticias4 {
+        width: 21.875rem;
+        .aside-barra2{
+            p{
+                border: 1px solid black; 
+            }
+        }
+    }
+
+    .barraNoticias5 {
+        width: 21.875rem;
+        .aside-barra2{
+            p{
+                border: 1px solid black; 
+            }
+        }
+    }
+
+
+}

@@ -1,0 +1,83 @@
+header {
+    background-image: url(https://i.pinimg.com/564x/a3/55/d6/a355d6990caee1c570a8e8435b1e131b.jpg);
+    background-repeat: no-repeat;
+    background-size: 100rem;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 37.5rem;
+    font-style: normal;
+    height: 18.75rem;
+    @include flex(column,center,none,none);
+    text-align: center;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    border: 3px solid black;
+    h1{
+        background-color: map-get($estilos, fondoPrincipal );
+        border: 2px solid black;
+        margin-top: 0%;
+        &:hover{
+            box-shadow: 4px 4px 4px black;
+            border:2px solid white;
+        }
+        a{
+            font-size: 3.125rem;
+            text-shadow: 1px 1px white;
+            color:map-get($estilos,fuentesPrincipales );
+            text-decoration: none;
+            list-style: none;
+            width: 100%;
+            &:hover{
+                font-size: 55px;
+                color: map-get($estilos,parrafosPrincipales  );
+                display: flex;
+                justify-content: flex-start;
+                margin-left: 6.875rem;
+                &::after{
+                    content: " es la pagina numero 1 elegida por los fanaticos del futbol.";
+                    color: map-get($estilos, fuentesPrincipales );
+                    font-size: 1.875rem;
+                    align-self: center;
+                    text-decoration: underline;
+                    text-shadow: 1px 1px black;
+                    font-family: "Exo", sans-serif;
+                }
+            }
+        }
+    }
+    .logo{
+        width: 6.25rem;
+        height: 6.25rem;
+        align-self: center;
+        &:hover{
+            width: 7.5rem;
+            height: 7.5rem; 
+        }
+
+    }
+    h2{
+        text-decoration-line: underline;
+        font-family: "Oswald", sans-serif;
+        font-size: 1.5rem;
+        text-shadow: 1px 1px white;
+        text-align: center;
+        padding-bottom: 30px;
+        margin: auto;
+        &:hover{
+            font-size: 1.75rem;
+        }
+        a{
+            color: black;
+            img{
+                width: 1.5rem;
+                height: 1.5rem;
+            } 
+        }
+        
+    }
+  
+
+
+
+};

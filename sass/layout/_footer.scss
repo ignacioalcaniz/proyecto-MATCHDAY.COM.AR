@@ -1,0 +1,26 @@
+footer {
+    button {
+        background-image: url(https://i.pinimg.com/564x/a3/55/d6/a355d6990caee1c570a8e8435b1e131b.jpg);
+        background-position: 50%;
+        margin-left: .625rem;
+        gap: .9375rem;
+        margin-bottom: .3125rem;
+        border-radius: 10px;
+        &:hover{
+            filter: saturate(20%);
+        }
+    }
+    p {
+        font-family: "Space Grotesk", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 70px;
+        font-style: normal;
+        color: black;
+        margin-left: .625rem;
+        margin-bottom: .625rem;
+        &:hover{
+            color:map-get($estilos, parrafosPrincipales );
+            text-decoration: underline;
+        }
+     }
+};
