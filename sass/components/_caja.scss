@@ -6,8 +6,9 @@
     grid-column: 4/5;
     grid-row: 1/4;
     margin: auto;
+   
     &:hover{
-        box-shadow: 2px 4px 2px 2px black;
+        box-shadow: 2px 2px 2px 2px black;
         border: 3px solid white;
     }
     aside{
@@ -32,7 +33,7 @@
                 filter:opacity(50%);
                 &:hover{
                     color: map-get($estilos, parrafosPrincipales );
-                    font-size: 1rem;
+                    transform: scale(1.1);
                     background-color: map-get($estilos, fondoPrincipal );
                     filter: opacity(100%);
                 }
@@ -87,12 +88,15 @@
             grid-row: 1/2;
             order: 2;
             align-content: center;
+            &:hover{
+                transform: scale(1.2);
+            }
             a{
                 color: map-get($estilos, parrafosPrincipales );
                 background-color: map-get($estilos, fondoPrincipal );
                 &:hover{
                     color: map-get($estilos, fuentesPrincipales );
-                    font-size: 1.5625rem;
+                  
                     background-color: white;
                 }
             }

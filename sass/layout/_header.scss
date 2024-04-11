@@ -15,6 +15,7 @@ header {
     border: 3px solid black;
     h1{
         background-color: map-get($estilos, fondoPrincipal );
+        background-image: linear-gradient(darkgreen 80%,white 20%);
         border: 2px solid black;
         margin-top: 0%;
         &:hover{
@@ -29,11 +30,12 @@ header {
             list-style: none;
             width: 100%;
             &:hover{
-                font-size: 55px;
-                color: map-get($estilos,parrafosPrincipales  );
+               transform: scale(1.1);
+                color: map-get($estilos,fuentesPrincipales);
                 display: flex;
                 justify-content: flex-start;
                 margin-left: 6.875rem;
+           
                 &::after{
                     content: " es la pagina numero 1 elegida por los fanaticos del futbol.";
                     color: map-get($estilos, fuentesPrincipales );
@@ -42,6 +44,7 @@ header {
                     text-decoration: underline;
                     text-shadow: 1px 1px black;
                     font-family: "Exo", sans-serif;
+                   
                 }
             }
         }
@@ -51,8 +54,7 @@ header {
         height: 6.25rem;
         align-self: center;
         &:hover{
-            width: 7.5rem;
-            height: 7.5rem; 
+            transform: scale(1.2); 
         }
 
     }
@@ -65,7 +67,7 @@ header {
         padding-bottom: 30px;
         margin: auto;
         &:hover{
-            font-size: 1.75rem;
+            transform: scale(1.1);
         }
         a{
             color: black;

@@ -14,3 +14,6 @@
 - CSS
 - GIT
 - GITHUB
+- SASS
+- SEO
+

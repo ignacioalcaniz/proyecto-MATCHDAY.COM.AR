@@ -36,6 +36,7 @@ header {
 }
 header h1 {
   background-color: darkgreen;
+  background-image: linear-gradient(darkgreen 80%, white 20%);
   border: 2px solid black;
   margin-top: 0%;
 }
@@ -52,8 +53,8 @@ header h1 a {
   width: 100%;
 }
 header h1 a:hover {
-  font-size: 55px;
-  color: white;
+  transform: scale(1.1);
+  color: black;
   display: flex;
   justify-content: flex-start;
   margin-left: 6.875rem;
@@ -73,8 +74,7 @@ header .logo {
   align-self: center;
 }
 header .logo:hover {
-  width: 7.5rem;
-  height: 7.5rem;
+  transform: scale(1.2);
 }
 header h2 {
   text-decoration-line: underline;
@@ -86,7 +86,7 @@ header h2 {
   margin: auto;
 }
 header h2:hover {
-  font-size: 1.75rem;
+  transform: scale(1.1);
 }
 header h2 a {
   color: black;
@@ -117,6 +117,7 @@ footer button {
 }
 footer button:hover {
   filter: saturate(20%);
+  transform: scale(1.3);
 }
 footer p {
   font-family: "Space Grotesk", sans-serif;
@@ -143,6 +144,7 @@ footer p:hover {
   gap: none;
   list-style: none;
   padding-bottom: 0.4375rem;
+  background-image: linear-gradient(darkgreen 85%, white 15%);
 }
 .NavBar:hover {
   box-shadow: 4px 4px 4px black;
@@ -155,10 +157,13 @@ footer p:hover {
   text-shadow: 1px 1px black;
   color: black;
   text-decoration: none;
+  background-image: linear-gradient(to bottom, white 10%, black 90%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 .NavBar .navbar-brand:hover {
   text-decoration: underline;
-  font-size: 1.75rem;
 }
 .NavBar .navbar-brand:active {
   color: black;
@@ -167,33 +172,51 @@ footer p:hover {
   border: 1px solid black;
   border-radius: 0.3125rem;
 }
-.NavBar li a {
+.NavBar .navbar-nav li:hover {
+  transform: scale(1.1);
+}
+.NavBar .navbar-nav li a {
   font-family: "Oswald", sans-serif;
   font-size: 1.5625rem;
   font-weight: 6.25rem;
   text-shadow: 1px 1px black;
   color: black;
   text-decoration: none;
+  background-image: linear-gradient(to bottom, white 10%, black 90%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
-.NavBar li a:hover {
-  font-size: 1.75rem;
+.NavBar .navbar-nav li a:hover {
+  transform: scale(1.1);
   text-decoration: underline;
 }
-.NavBar li a:active {
+.NavBar .navbar-nav li a:active {
   color: black;
   text-decoration: underline;
   background-color: darkgreen;
   border: 1px solid black;
   border-radius: 0.3125rem;
 }
-.NavBar li a img {
+.NavBar .navbar-nav li a img {
   height: 25px;
   width: 25px;
 }
-.NavBar li .dropdown-menu {
-  background-color: darkgreen;
+.NavBar .navbar-nav li .nav-link {
+  background-image: linear-gradient(to bottom, white 10%, black 90%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
-.NavBar li .dropdown-menu .dropdown-item {
+.NavBar .navbar-nav li .dropdown-menu {
+  background-color: darkgreen;
+  overflow: hidden;
+}
+.NavBar .navbar-nav li .dropdown-menu li:hover {
+  background-color: white;
+  transform: scale(1);
+}
+.NavBar .navbar-nav li .dropdown-menu .dropdown-item {
   border: 1px solid black;
   border-radius: 5px;
 }
@@ -212,7 +235,7 @@ footer p:hover {
   z-index: 1;
 }
 .carrusel:hover, .caja:hover {
-  box-shadow: 2px 4px 2px 2px black;
+  box-shadow: 2px 2px 2px 2px black;
   border: 3px solid white;
 }
 .carrusel .articuloCarrusel, .caja .articuloCarrusel {
@@ -242,18 +265,22 @@ footer p:hover {
   width: 100%;
   height: 10%;
 }
+.carrusel .articuloCarrusel .divC .h3:hover, .caja .articuloCarrusel .divC .h3:hover {
+  transform: scale(1.2);
+}
 .carrusel .articuloCarrusel .divC .h3 a, .caja .articuloCarrusel .divC .h3 a {
   color: black;
 }
 .carrusel .articuloCarrusel .divC .h3 a:hover, .caja .articuloCarrusel .divC .h3 a:hover {
   color: white;
-  font-size: 1.5625rem;
 }
-.carrusel .articuloCarrusel .divC .pCarrusel a, .caja .articuloCarrusel .divC .pCarrusel a {
+.carrusel .articuloCarrusel .divC .pCarrusel .text-focus-in, .caja .articuloCarrusel .divC .pCarrusel .text-focus-in {
   color: white;
   text-decoration: none;
+  -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
 }
-.carrusel .articuloCarrusel .divC .pCarrusel a:hover, .caja .articuloCarrusel .divC .pCarrusel a:hover {
+.carrusel .articuloCarrusel .divC .pCarrusel .text-focus-in:hover, .caja .articuloCarrusel .divC .pCarrusel .text-focus-in:hover {
   text-decoration: underline;
   color: lightgreen;
   background-color: black;
@@ -272,6 +299,10 @@ footer p:hover {
 .barraNoticias:hover, .barraNoticias2:hover, .barraNoticias3:hover {
   box-shadow: 2px 4px 2px 2px black;
   border: 2px solid white;
+  animation-name: box-animacion;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 2s;
 }
 .barraNoticias .aside-barra, .barraNoticias2 .aside-barra, .barraNoticias3 .aside-barra {
   width: 100%;
@@ -295,6 +326,9 @@ footer p:hover {
   order: 2;
   align-content: center;
 }
+.barraNoticias .aside-barra h4:hover, .barraNoticias2 .aside-barra h4:hover, .barraNoticias3 .aside-barra h4:hover {
+  transform: scale(1.2);
+}
 .barraNoticias .aside-barra h4 a, .barraNoticias2 .aside-barra h4 a, .barraNoticias3 .aside-barra h4 a {
   color: black;
   background-color: darkgreen;
@@ -302,7 +336,6 @@ footer p:hover {
 }
 .barraNoticias .aside-barra h4 a:hover, .barraNoticias2 .aside-barra h4 a:hover, .barraNoticias3 .aside-barra h4 a:hover {
   color: white;
-  font-size: 1.1875rem;
   filter: opacity(100%);
 }
 .barraNoticias .aside-barra p, .barraNoticias2 .aside-barra p, .barraNoticias3 .aside-barra p {
@@ -382,6 +415,10 @@ footer p:hover {
 .barraNoticias4:hover, .barraNoticias5:hover {
   box-shadow: 2px 4px 2px 2px black;
   border: 2px solid white;
+  animation-name: box-animacion;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 2s;
 }
 .barraNoticias4 .aside-barra2, .barraNoticias5 .aside-barra2 {
   width: 100%;
@@ -391,6 +428,7 @@ footer p:hover {
   grid-template-rows: repeat(2, 1fr);
   gap: none;
   order: none;
+  overflow: hidden;
 }
 .barraNoticias4 .aside-barra2 h5, .barraNoticias5 .aside-barra2 h5 {
   width: 100%;
@@ -404,13 +442,16 @@ footer p:hover {
   order: 3;
   align-content: center;
 }
+.barraNoticias4 .aside-barra2 h5:hover, .barraNoticias5 .aside-barra2 h5:hover {
+  transform: scale(1.1);
+}
 .barraNoticias4 .aside-barra2 h5 a, .barraNoticias5 .aside-barra2 h5 a {
   color: white;
   background-color: black;
 }
 .barraNoticias4 .aside-barra2 h5 a:hover, .barraNoticias5 .aside-barra2 h5 a:hover {
   color: black;
-  font-size: 1rem;
+  transform: scale(1.1);
   background-color: white;
 }
 .barraNoticias4 .aside-barra2 a, .barraNoticias5 .aside-barra2 a {
@@ -481,7 +522,7 @@ footer p:hover {
   margin: auto;
 }
 .publicidad:hover {
-  box-shadow: 2px 4px 2px 2px black;
+  box-shadow: 2px 2px 2px 2px black;
   border: 3px solid white;
 }
 .publicidad aside {
@@ -513,7 +554,7 @@ footer p:hover {
 }
 .publicidad aside h4 a:hover {
   color: white;
-  font-size: 1rem;
+  transform: scale(1.1);
   background-color: darkgreen;
   filter: opacity(100%);
 }
@@ -562,13 +603,15 @@ footer p:hover {
   order: 2;
   align-content: center;
 }
+.caja .articulo-caja h3:hover {
+  transform: scale(1.2);
+}
 .caja .articulo-caja h3 a {
   color: white;
   background-color: darkgreen;
 }
 .caja .articulo-caja h3 a:hover {
   color: black;
-  font-size: 1.5625rem;
   background-color: white;
 }
 .caja .articulo-caja a {
@@ -628,6 +671,44 @@ footer p:hover {
   color: green;
 }
 
+@keyframes box-animacion {
+  0% {
+    filter: drop-shadow(0px 10px 2px rgb(49, 231, 49));
+  }
+  25% {
+    filter: drop-shadow(0px -10px 5px rgb(73, 228, 73));
+  }
+  50% {
+    filter: drop-shadow(0px -20px 10px rgb(18, 34, 18));
+  }
+  100% {
+    filter: drop-shadow(0px 10px 2px rgb(58, 68, 58));
+  }
+}
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
 @media (max-width: 1024px) {
   header {
     height: 15rem;
@@ -1682,6 +1763,7 @@ footer p:hover {
     border-radius: 0.3125rem;
     width: 60%;
     background-color: green;
+    color: white;
   }
   main {
     display: flex;

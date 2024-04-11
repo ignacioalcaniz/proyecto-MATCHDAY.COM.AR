@@ -8,6 +8,7 @@ footer {
         border-radius: 10px;
         &:hover{
             filter: saturate(20%);
+            transform: scale(1.3);
         }
     }
     p {
