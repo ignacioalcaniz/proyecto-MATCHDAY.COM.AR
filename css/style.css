@@ -62,7 +62,7 @@ header h1 a:hover {
 header h1 a:hover::after {
   content: " es la pagina numero 1 elegida por los fanaticos del futbol.";
   color: black;
-  font-size: 1.875rem;
+  font-size: 1.375rem;
   align-self: center;
   text-decoration: underline;
   text-shadow: 1px 1px black;
@@ -231,12 +231,13 @@ footer p:hover {
   grid-column: 2/4;
   grid-row: 1/6;
   width: 100%;
-  height: 100%;
+  height: 95%;
   z-index: 1;
 }
 .carrusel:hover, .caja:hover {
   box-shadow: 2px 2px 2px 2px black;
   border: 3px solid white;
+  z-index: 1100;
 }
 .carrusel .articuloCarrusel, .caja .articuloCarrusel {
   width: 100%;
@@ -435,7 +436,7 @@ footer p:hover {
   height: 100%;
   text-decoration-line: underline;
   font-family: "Oswald", sans-serif;
-  font-size: 13px;
+  font-size: 0.8125rem;
   text-decoration: underline;
   grid-column: 1/3;
   grid-row: 1/2;
@@ -443,7 +444,7 @@ footer p:hover {
   align-content: center;
 }
 .barraNoticias4 .aside-barra2 h5:hover, .barraNoticias5 .aside-barra2 h5:hover {
-  transform: scale(1.1);
+  transform: scale(1);
 }
 .barraNoticias4 .aside-barra2 h5 a, .barraNoticias5 .aside-barra2 h5 a {
   color: white;
@@ -604,7 +605,7 @@ footer p:hover {
   align-content: center;
 }
 .caja .articulo-caja h3:hover {
-  transform: scale(1.2);
+  transform: scale(1);
 }
 .caja .articulo-caja h3 a {
   color: white;
@@ -1672,7 +1673,7 @@ footer p:hover {
     height: 18.75rem;
   }
   main .carrusel .h3, main .caja .h3 {
-    font-size: 0.9375rem;
+    display: none;
   }
   main .carrusel .pCarrusel, main .caja .pCarrusel {
     font-size: 0.8125rem;
@@ -1803,7 +1804,7 @@ footer p:hover {
     margin: auto;
   }
   main .carrusel .h3, main .caja .h3 {
-    font-size: 0.875rem;
+    display: none;
   }
   main .carrusel .pCarrusel, main .caja .pCarrusel {
     font-size: 0.75rem;
