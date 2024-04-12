@@ -97,7 +97,7 @@ main{
        h4{
         grid-column: 3/5;
         grid-row: 1/2;
-        font-size: .9375rem;
+        font-size: 1.125rem;
         background-color: black;
         height: 40%;
         align-self: flex-end;
@@ -159,7 +159,7 @@ main{
             h4{
              grid-column: 3/5;
              grid-row: 1/2;
-             font-size: .9375rem;
+             font-size: 1.125rem;
              background-color: black;
              height: 40%;
              align-self: flex-end;
@@ -220,7 +220,7 @@ main{
             h4{
              grid-column: 3/5;
              grid-row: 1/2;
-             font-size: .9375rem;
+             font-size: 1.125rem;
              background-color: black;
              height: 40%;
              align-self: flex-end;
@@ -280,7 +280,7 @@ main{
       h5{
         grid-column: 3/5;
         grid-row: 1/2;
-        font-size: .875rem;
+        font-size: 1.125rem;
         background-color: black;
         height: 40%;
         align-self: center;
@@ -341,7 +341,7 @@ main{
             h5{
               grid-column: 3/5;
               grid-row: 1/2;
-              font-size: .875rem;
+              font-size: 1.125rem;
               background-color: black;
               height: 40%;
               align-self: center;
@@ -403,10 +403,11 @@ main{
             }
             p{
                 color: white;
-                font-size: .5625rem;
+                font-size: .75rem;
                 height: 20%;
                 text-align: center;
                 display: block;
+                align-self: flex-start;
                 a{
                     color: white;
                 }
