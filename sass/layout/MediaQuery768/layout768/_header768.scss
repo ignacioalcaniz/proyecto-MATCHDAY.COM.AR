@@ -46,26 +46,48 @@ header {
             position: absolute;
             left: 2%;
             top: 20%;
+            background-color: white;
+            border: 3px solid darkgreen;
+            
+          
         }
 
         .NAV {
             @include flex(column, none, start, none);
             padding-left: .0625rem;
-            width: 30%;
+            width: 90%;
+            height: 350px;
             border: .125rem solid black;
             background-image: url(https://i.pinimg.com/564x/a3/55/d6/a355d6990caee1c570a8e8435b1e131b.jpg);
-            border-radius: 2px 2px;
+            background-size: 1000px;
+            border-radius: 10px 10px;
             margin-left: 3.75rem;
+            z-index: 1000;
+         
 
             li {
+             margin: auto;
+             width: 100%;
+             gap: 2px;
+             padding-top: 2px;
+             
+          
                 a {
-                    font-size: .875rem;
+                    font-size: 1.875rem;
                     text-decoration: underline;
-
+                    border: 2px solid black;
+                    border-radius: .625rem;
+                    text-align: center;
+                    background: green;
                     img {
-                        height: .875rem;
-                        width: .875rem;
+                        height: 1.875rem;
+                        width: 1.875rem;
                     }
+                }
+                .dropdown-menu{
+                    width: 80%;
+                    margin: auto;
+                    gap: 2px;
                 }
             }
 

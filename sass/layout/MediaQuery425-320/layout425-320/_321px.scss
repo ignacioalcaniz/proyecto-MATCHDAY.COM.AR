@@ -8,44 +8,45 @@ header{
     .NavBar{
         .navbar-brand {
             position: absolute;
-            right: 33%;
-            top: 4%;
+            right: 1%;
+            top: 25%;
     
     
         } 
         .navbar-toggler {
-            height: 1.8125rem;
-            width: 3.3125rem;
+          
             border: .0625rem solid black;
-            .navbar-toggler-icon {
-                height: .9375rem;
-        
-        
-            }
+            
     
         }
       
         .navbar-nav{
-            width: 60%;
+            width: 100%;
             border: .125rem solid black;
             background-image: url(https://i.pinimg.com/564x/a3/55/d6/a355d6990caee1c570a8e8435b1e131b.jpg);
             border-radius: .125rem .125rem;
             margin-left: 3.125rem;
             z-index: 1000;
             li{
+                width: 98%;
+               
             
                 a{
-                    font-size: .625rem;
+                    font-size: .9375rem;
                     justify-self: center;  
                 }
             }
-            .dropdown-item {
-                border: .0625rem solid black;
-                border-radius: .3125rem;
-                width: 60%;
-                background-color: green;
-                color: white
+            .dropdown-menu{
+              
+                .dropdown-item {
+                    border: .0625rem solid black;
+                    border-radius: .3125rem;
+                    width: 100%;
+                    background-color: green;
+                    color: white
+                }
             }
+           
         }
         
 

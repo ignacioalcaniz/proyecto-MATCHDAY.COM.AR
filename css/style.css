@@ -928,6 +928,8 @@ footer p:hover {
     position: absolute;
     left: 2%;
     top: 20%;
+    background-color: white;
+    border: 3px solid darkgreen;
   }
   header .NavBar .NAV {
     display: flex;
@@ -936,19 +938,37 @@ footer p:hover {
     align-items: start;
     gap: none;
     padding-left: 0.0625rem;
-    width: 30%;
+    width: 90%;
+    height: 350px;
     border: 0.125rem solid black;
     background-image: url(https://i.pinimg.com/564x/a3/55/d6/a355d6990caee1c570a8e8435b1e131b.jpg);
-    border-radius: 2px 2px;
+    background-size: 1000px;
+    border-radius: 10px 10px;
     margin-left: 3.75rem;
+    z-index: 1000;
+  }
+  header .NavBar .NAV li {
+    margin: auto;
+    width: 100%;
+    gap: 2px;
+    padding-top: 2px;
   }
   header .NavBar .NAV li a {
-    font-size: 0.875rem;
+    font-size: 1.875rem;
     text-decoration: underline;
+    border: 2px solid black;
+    border-radius: 0.625rem;
+    text-align: center;
+    background: green;
   }
   header .NavBar .NAV li a img {
-    height: 0.875rem;
-    width: 0.875rem;
+    height: 1.875rem;
+    width: 1.875rem;
+  }
+  header .NavBar .NAV li .dropdown-menu {
+    width: 80%;
+    margin: auto;
+    gap: 2px;
   }
   main .carrusel, main .caja {
     width: 95%;
@@ -1110,7 +1130,7 @@ footer p:hover {
 }
 @media (max-width: 426px) {
   header {
-    height: 7.1875rem;
+    height: 8.125rem;
   }
   header h1 {
     background-color: darkgreen;
@@ -1136,20 +1156,17 @@ footer p:hover {
   }
   header .NavBar .navbar-brand {
     position: absolute;
-    right: 39%;
-    top: 4%;
+    right: 1%;
+    top: 8%;
+    margin: auto;
+    font-size: 1.1875rem;
   }
   header .NavBar .navbar-brand .navbar-brand img {
     height: 1.25rem;
     width: 1.25rem;
   }
   header .NavBar .navbar-toggler {
-    height: 2rem;
-    width: 3.4375rem;
     border: 0.125rem solid black;
-  }
-  header .NavBar .navbar-toggler .navbar-toggler-icon {
-    height: 1rem;
   }
   header .NavBar .NAV {
     display: flex;
@@ -1158,15 +1175,20 @@ footer p:hover {
     align-items: start;
     gap: none;
     padding-left: 0px;
-    width: 40%;
+    width: 100%;
+    height: 300px;
     border: 0.125rem solid black;
     background-image: url(https://i.pinimg.com/564x/a3/55/d6/a355d6990caee1c570a8e8435b1e131b.jpg);
     border-radius: 0.125rem 0.125rem;
     margin-left: 3.125rem;
     z-index: 1000;
   }
+  header .NavBar .NAV li {
+    gap: 1px;
+    width: 21.25rem;
+  }
   header .NavBar .NAV li a {
-    font-size: 0.8125rem;
+    font-size: 1.25rem;
     color: black;
   }
   header .NavBar .NAV li .dropdown-item {
@@ -1618,27 +1640,32 @@ footer p:hover {
 @media (max-width: 376px) {
   header .NavBar .navbar-brand {
     position: absolute;
-    right: 35%;
-    top: 4%;
-  }
-  header .NavBar .navbar-toggler {
-    height: 2rem;
-    width: 3.4375rem;
-    border: 0.0625rem solid black;
+    right: 2%;
+    top: 15%;
+    font-size: 15px;
   }
   header .NavBar .navbar-nav {
-    width: 50%;
+    width: 100%;
     border: 0.125rem solid black;
     background-image: url(https://i.pinimg.com/564x/a3/55/d6/a355d6990caee1c570a8e8435b1e131b.jpg);
     border-radius: 0.125rem 0.125rem;
     margin-left: 3.125rem;
     z-index: 1000;
+    height: 17.5rem;
   }
-  header .NavBar .navbar-nav .dropdown-item {
+  header .NavBar .navbar-nav li {
+    width: 80%;
+    gap: 5px;
+  }
+  header .NavBar .navbar-nav .dropdown-menu {
+    width: 90%;
+  }
+  header .NavBar .navbar-nav .dropdown-menu .dropdown-item {
     border: 0.0625rem solid black;
     border-radius: 0.3125rem;
-    width: 80%;
+    width: 9.375rem;
     background-color: green;
+    font-size: 0.9375rem;
   }
   main .carrusel, main .caja {
     width: 21.875rem;
@@ -1735,33 +1762,31 @@ footer p:hover {
   }
   header .NavBar .navbar-brand {
     position: absolute;
-    right: 33%;
-    top: 4%;
+    right: 1%;
+    top: 25%;
   }
   header .NavBar .navbar-toggler {
-    height: 1.8125rem;
-    width: 3.3125rem;
     border: 0.0625rem solid black;
   }
-  header .NavBar .navbar-toggler .navbar-toggler-icon {
-    height: 0.9375rem;
-  }
   header .NavBar .navbar-nav {
-    width: 60%;
+    width: 100%;
     border: 0.125rem solid black;
     background-image: url(https://i.pinimg.com/564x/a3/55/d6/a355d6990caee1c570a8e8435b1e131b.jpg);
     border-radius: 0.125rem 0.125rem;
     margin-left: 3.125rem;
     z-index: 1000;
   }
+  header .NavBar .navbar-nav li {
+    width: 98%;
+  }
   header .NavBar .navbar-nav li a {
-    font-size: 0.625rem;
+    font-size: 0.9375rem;
     justify-self: center;
   }
-  header .NavBar .navbar-nav .dropdown-item {
+  header .NavBar .navbar-nav .dropdown-menu .dropdown-item {
     border: 0.0625rem solid black;
     border-radius: 0.3125rem;
-    width: 60%;
+    width: 100%;
     background-color: green;
     color: white;
   }

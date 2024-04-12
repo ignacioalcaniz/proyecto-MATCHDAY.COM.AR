@@ -2,30 +2,37 @@ header{
     .NavBar{
         .navbar-brand {
             position: absolute;
-            right: 35%;
-            top: 4%;
+            right: 2%;
+            top: 15%;
+            font-size: 15px;
+       
         }
-        .navbar-toggler {
-            height: 2rem;
-            width: 3.4375rem;
-            border: .0625rem solid black;
-    
-        }
+
         .navbar-nav {
-            width: 50%;
+            width: 100%;
             border: .125rem solid black;
             background-image: url(https://i.pinimg.com/564x/a3/55/d6/a355d6990caee1c570a8e8435b1e131b.jpg);
             border-radius: .125rem .125rem;
             margin-left: 3.125rem;
             z-index: 1000;
-       
-
-            .dropdown-item {
-                border: .0625rem solid black;
-                border-radius: .3125rem;
+            height: 17.5rem;
+            li{
                 width: 80%;
-                background-color: green;
+                gap: 5px;
+               
             }
+       
+            .dropdown-menu{
+                width: 90%;
+                .dropdown-item {
+                    border: .0625rem solid black;
+                    border-radius: .3125rem;
+                    width: 9.375rem;
+                    background-color: green;
+                    font-size: .9375rem;
+                }
+            }
+      
             
      }
     }
