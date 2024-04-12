@@ -1,5 +1,6 @@
 header{
     height: 15rem;
+    z-index: 1000;
     h1{
         background-color: map-get($estilos, fondoPrincipal );
         a{
