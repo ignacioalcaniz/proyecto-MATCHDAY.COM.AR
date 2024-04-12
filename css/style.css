@@ -713,7 +713,6 @@ footer p:hover {
 @media (max-width: 1024px) {
   header {
     height: 15rem;
-    z-index: 1000;
   }
   header h1 {
     background-color: darkgreen;
