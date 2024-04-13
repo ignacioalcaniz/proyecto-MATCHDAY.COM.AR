@@ -1633,7 +1633,7 @@ footer p:hover {
   header .NavBar .NAV li .dropdown-item {
     border: 0.0625rem solid black;
     border-radius: 0.3125rem;
-    width: 80%;
+    width: 75%;
     background-color: green;
   }
   main {
