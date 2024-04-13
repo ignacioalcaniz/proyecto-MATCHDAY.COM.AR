@@ -9,7 +9,10 @@ main {
         height: 90%;
         margin: auto;
         margin-top: 0%;
-        z-index: 0;
+        &:hover{
+            z-index: 0;
+        }
+   
     }
 
     .publicidad {
