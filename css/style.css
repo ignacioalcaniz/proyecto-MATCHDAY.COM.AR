@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Space+Grotesk:wght@300..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Exo:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Space+Grotesk:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 * {
   margin: 0%;
   padding: 0%;
@@ -8,21 +9,21 @@
 }
 
 body {
-  background-image: url(https://i.pinimg.com/736x/a3/55/d6/a355d6990caee1c570a8e8435b1e131b.jpg);
+  background-color: #379237;
   background-size: 206.25rem;
   background-position: center center;
   background-repeat: no-repeat;
 }
 
 header {
-  background-image: url(https://i.pinimg.com/564x/a3/55/d6/a355d6990caee1c570a8e8435b1e131b.jpg);
+  background-color: #379237;
   background-repeat: no-repeat;
   background-size: 100rem;
   font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;
   font-weight: 37.5rem;
   font-style: normal;
-  height: 18.75rem;
+  height: 12.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -36,7 +37,7 @@ header {
 }
 header h1 {
   background-color: darkgreen;
-  background-image: linear-gradient(darkgreen 80%, white 20%);
+  background-image: linear-gradient(white 80%, black 20%);
   border: 2px solid black;
   margin-top: 0%;
 }
@@ -45,7 +46,7 @@ header h1:hover {
   border: 2px solid white;
 }
 header h1 a {
-  font-size: 3.125rem;
+  font-size: 2.8125rem;
   text-shadow: 1px 1px white;
   color: black;
   text-decoration: none;
@@ -68,17 +69,11 @@ header h1 a:hover::after {
   text-shadow: 1px 1px black;
   font-family: "Exo", sans-serif;
 }
-header .logo {
-  width: 6.25rem;
-  height: 6.25rem;
-  align-self: center;
-}
-header .logo:hover {
-  transform: scale(1.2);
-}
 header h2 {
   text-decoration-line: underline;
-  font-family: "Oswald", sans-serif;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 1.5rem;
   text-shadow: 1px 1px white;
   text-align: center;
@@ -107,19 +102,44 @@ main {
   padding-top: 1.25rem;
 }
 
-footer button {
+footer {
+  background-color: #54B435;
+}
+footer h2:hover {
+  transform: scale(1.1);
+}
+footer h2 a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+footer .menu {
+  gap: 0.3125rem;
+}
+footer .menu a {
+  list-style: none;
+  color: black;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+footer .menu a:hover {
+  transform: scale(1.1);
+}
+footer ul li {
+  list-style: none;
   background-image: url(https://i.pinimg.com/564x/a3/55/d6/a355d6990caee1c570a8e8435b1e131b.jpg);
   background-position: 50%;
   margin-left: 0.625rem;
   gap: 0.9375rem;
   margin-bottom: 0.3125rem;
-  border-radius: 10px;
+  border-radius: 12px;
 }
-footer button:hover {
+footer ul li:hover {
   filter: saturate(20%);
   transform: scale(1.3);
 }
-footer p {
+footer .copyright {
   font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
   font-weight: 70px;
@@ -128,7 +148,7 @@ footer p {
   margin-left: 0.625rem;
   margin-bottom: 0.625rem;
 }
-footer p:hover {
+footer .copyright:hover {
   color: white;
   text-decoration: underline;
 }
@@ -144,7 +164,7 @@ footer p:hover {
   gap: none;
   list-style: none;
   padding-bottom: 0.4375rem;
-  background-image: linear-gradient(darkgreen 85%, white 15%);
+  background-image: linear-gradient(white 85%, black 15%);
 }
 .NavBar:hover {
   box-shadow: 4px 4px 4px black;
@@ -177,7 +197,9 @@ footer p:hover {
   transform: scale(1.1);
 }
 .NavBar .navbar-nav li a {
-  font-family: "Oswald", sans-serif;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 1.5625rem;
   font-weight: 6.25rem;
   text-shadow: 1px 1px black;
@@ -227,7 +249,7 @@ footer p:hover {
   font-optical-sizing: auto;
   font-weight: 6.25rem;
   font-style: normal;
-  border: 4px solid black;
+  border: 4px solid darkgreen;
   border-radius: 0.3125rem;
   grid-column: 2/4;
   grid-row: 1/6;
@@ -291,7 +313,7 @@ footer p:hover {
 .barraNoticias, .barraNoticias2, .barraNoticias3 {
   width: 100%;
   height: 85%;
-  border: 3px solid black;
+  border: 3px solid darkgreen;
   border-radius: 0.3125rem;
   text-align: center;
   grid-column: 1/2;
@@ -407,7 +429,7 @@ footer p:hover {
   background-color: white;
   width: 90%;
   height: 82%;
-  border: 3px solid black;
+  border: 3px solid darkgreen;
   border-radius: 0.3125rem;
   text-align: center;
   grid-column: 4/5;
@@ -515,7 +537,7 @@ footer p:hover {
 }
 
 .publicidad {
-  border: 3px solid black;
+  border: 3px solid darkgreen;
   text-align: center;
   height: 100%;
   width: 90%;
@@ -713,7 +735,7 @@ footer p:hover {
 }
 @media (max-width: 1024px) {
   header {
-    height: 15rem;
+    height: 200px;
   }
   header h1 {
     background-color: darkgreen;
@@ -721,10 +743,6 @@ footer p:hover {
   header h1 a {
     font-size: 1.875rem;
     text-shadow: 0, 5px 0, 5px white;
-  }
-  header .logo {
-    width: 4.375rem;
-    height: 4.375rem;
   }
   header h2 {
     font-size: 1.375rem;
@@ -894,7 +912,7 @@ footer p:hover {
 }
 @media (max-width: 768px) {
   header {
-    height: 8.75rem;
+    height: 11.25rem;
   }
   header h1 {
     font-size: 1.125rem;
@@ -912,9 +930,6 @@ footer p:hover {
   header h2 img {
     height: 1rem;
     width: 1rem;
-  }
-  header .logo {
-    display: none;
   }
   header .NavBar {
     height: 60%;
@@ -1129,7 +1144,7 @@ footer p:hover {
   main .barraNoticias5 .aside-barra2 p {
     display: none;
   }
-  footer p {
+  footer .copyright {
     font-size: 0.875rem;
   }
 }
@@ -1142,7 +1157,7 @@ footer p:hover {
     border: 0.0625rem solid white;
   }
   header h1 a {
-    font-size: 0.9375rem;
+    font-size: 0.625rem;
     color: white;
     text-shadow: none;
   }
@@ -1993,11 +2008,8 @@ footer p:hover {
   main .caja .articulo-caja iframe {
     height: 100%;
   }
-  footer {
-    margin-top: 0.625rem;
-  }
-  footer button {
-    border: 0, 0.3125rem solid white;
+  footer .menu a {
+    font-size: 11px;
   }
 }
 @media (max-width: 415px) {

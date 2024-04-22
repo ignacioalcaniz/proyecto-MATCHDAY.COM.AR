@@ -1,12 +1,12 @@
 header {
-    background-image: url(https://i.pinimg.com/564x/a3/55/d6/a355d6990caee1c570a8e8435b1e131b.jpg);
+    background-color: #379237;
     background-repeat: no-repeat;
     background-size: 100rem;
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
     font-weight: 37.5rem;
     font-style: normal;
-    height: 18.75rem;
+    height: 12.5rem;
     @include flex(column,center,none,none);
     text-align: center;
     position: sticky;
@@ -15,7 +15,7 @@ header {
     border: 3px solid black;
     h1{
         background-color: map-get($estilos, fondoPrincipal );
-        background-image: linear-gradient(darkgreen 80%,white 20%);
+        background-image: linear-gradient(white 80%,black 20%);
         border: 2px solid black;
         margin-top: 0%;
         &:hover{
@@ -23,7 +23,7 @@ header {
             border:2px solid white;
         }
         a{
-            font-size: 3.125rem;
+            font-size: 2.8125rem;
             text-shadow: 1px 1px white;
             color:map-get($estilos,fuentesPrincipales );
             text-decoration: none;
@@ -49,18 +49,11 @@ header {
             }
         }
     }
-    .logo{
-        width: 6.25rem;
-        height: 6.25rem;
-        align-self: center;
-        &:hover{
-            transform: scale(1.2); 
-        }
-
-    }
     h2{
         text-decoration-line: underline;
-        font-family: "Oswald", sans-serif;
+        font-family: "Anton", sans-serif;
+        font-weight: 400;
+        font-style: normal;
         font-size: 1.5rem;
         text-shadow: 1px 1px white;
         text-align: center;
@@ -71,6 +64,7 @@ header {
         }
         a{
             color: black;
+            
             img{
                 width: 1.5rem;
                 height: 1.5rem;

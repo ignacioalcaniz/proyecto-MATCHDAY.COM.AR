@@ -5,7 +5,7 @@
     @include flex(row,space-evenly,none,none);
     list-style: none;
     padding-bottom: .4375rem;
-    background-image: linear-gradient(darkgreen 85%,white 15%);
+    background-image: linear-gradient(white 85%,black 15%);
     &:hover{
         box-shadow: 4px 4px 4px black;
         border:2px solid white;
@@ -45,7 +45,9 @@
             }
         
            a{
-                font-family: "Oswald", sans-serif;
+            font-family: "Anton", sans-serif;
+            font-weight: 400;
+            font-style: normal;
                 font-size: 1.5625rem;
                 font-weight: 6.25rem;
                 text-shadow: 1px 1px black;

@@ -1,5 +1,5 @@
 header{
-    height: 15rem;
+    height: 200px;;
   
     h1{
         background-color: map-get($estilos, fondoPrincipal );
@@ -8,10 +8,7 @@ header{
             text-shadow: 0, 5px 0, 5px white;
         }
     }
-    .logo {
-        width: 4.375rem;
-        height: 4.375rem;
-    }
+   
     h2{
         font-size: 1.375rem;
         text-shadow: 0, 5px 0, 5px white;
