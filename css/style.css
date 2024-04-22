@@ -1157,7 +1157,7 @@ footer .copyright:hover {
     border: 0.0625rem solid white;
   }
   header h1 a {
-    font-size: 0.625rem;
+    font-size: 5px;
     color: white;
     text-shadow: none;
   }
@@ -1575,11 +1575,8 @@ footer .copyright:hover {
   main .caja .articulo-caja iframe {
     height: 100%;
   }
-  footer {
-    margin-top: 0.625rem;
-  }
-  footer button {
-    border: 0, 0.3125rem solid white;
+  footer .menu a {
+    font-size: 0.75rem;
   }
 }
 @media (max-width: 426px) {
