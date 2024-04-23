@@ -14,9 +14,6 @@ header {
     top: 0;
     border: 3px solid black;
     h1{
-        background-color: map-get($estilos, fondoPrincipal );
-        background-image: linear-gradient(white 80%,black 20%);
-        border: 2px solid black;
         margin-top: 0%;
         &:hover{
             box-shadow: 4px 4px 4px black;

@@ -36,9 +36,6 @@ header {
   border: 3px solid black;
 }
 header h1 {
-  background-color: darkgreen;
-  background-image: linear-gradient(white 80%, black 20%);
-  border: 2px solid black;
   margin-top: 0%;
 }
 header h1:hover {
@@ -100,7 +97,6 @@ main {
   column-gap: 12px;
   row-gap: 5px;
   padding-top: 1.25rem;
-  margin-bottom: 1.25rem;
 }
 
 footer {
@@ -739,9 +735,6 @@ footer .copyright:hover {
   header {
     height: 200px;
   }
-  header h1 {
-    background-color: darkgreen;
-  }
   header h1 a {
     font-size: 1.875rem;
     text-shadow: 0, 5px 0, 5px white;
@@ -918,10 +911,8 @@ footer .copyright:hover {
   }
   header h1 {
     font-size: 1.125rem;
-    border: 0cap;
     height: 2.5rem;
     margin-top: 0.3125rem;
-    background-color: green;
   }
   header h2 {
     font-size: 0.9375rem;
@@ -1154,13 +1145,9 @@ footer .copyright:hover {
   header {
     height: 8.125rem;
   }
-  header h1 {
-    background-color: darkgreen;
-    border: 0.0625rem solid white;
-  }
   header h1 a {
-    font-size: 5px;
-    color: white;
+    font-size: 1.25rem;
+    color: black;
     text-shadow: none;
   }
   header h2 {
@@ -1585,13 +1572,9 @@ footer .copyright:hover {
   header {
     height: 8.125rem;
   }
-  header h1 {
-    background-color: darkgreen;
-    border: 0.0625rem solid white;
-  }
   header h1 a {
     font-size: 0.9375rem;
-    color: white;
+    color: black;
     text-shadow: none;
   }
   header h2 {
@@ -2205,10 +2188,10 @@ footer .copyright:hover {
 }
 @media (max-width: 321px) {
   header h1 {
-    height: 2.5rem;
+    height: 2.1875rem;
   }
   header h1 a {
-    font-size: 0.6875rem;
+    font-size: 0.9375rem;
   }
   header .NavBar .navbar-brand {
     position: absolute;

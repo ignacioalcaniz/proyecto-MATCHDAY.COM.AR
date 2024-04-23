@@ -1,11 +1,10 @@
 header{
     height: 8.125rem;
   h1{
-    background-color:map-get($estilos, fondoPrincipal );
-    border: .0625rem solid white;
+ 
     a{
         font-size: .9375rem;
-        color:map-get($estilos, parrafosPrincipales );
+        color:map-get($estilos, fuentesPrincipales );
         text-shadow: none;
     }
   }
